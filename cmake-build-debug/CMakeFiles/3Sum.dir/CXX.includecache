@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CodeBook/LeetCode/Array/15.3Sum.cpp
+iostream
+-
+algorithm
+-
+stack
+-
+vector
+-
+queue
+-
+

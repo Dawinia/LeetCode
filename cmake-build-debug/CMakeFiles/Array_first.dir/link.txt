@@ -1,0 +1,3 @@
+D:\JetBrains\apps\CLion\ch-0\191.6707.69\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\Array_first.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Array_first.dir/objects.a @CMakeFiles\Array_first.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Array_first.dir/objects.a -Wl,--no-whole-archive  -o Array_first.exe -Wl,--out-implib,libArray_first.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Array_first.dir\linklibs.rsp
