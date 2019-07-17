@@ -33,6 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/JetBrains/apps/CLion/ch-0/191.7479.33/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows.cmake"
   "D:/JetBrains/apps/CLion/ch-0/191.7479.33/bin/cmake/win/share/cmake-3.14/Modules/Platform/WindowsPaths.cmake"
   "D:/JetBrains/apps/CLion/ch-0/191.7479.33/bin/cmake/win/share/cmake-3.14/Modules/ProcessorCount.cmake"
+  "../Array/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
@@ -49,16 +50,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Array/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/3SumClosest.dir/DependInfo.cmake"
-  "CMakeFiles/Island.dir/DependInfo.cmake"
-  "CMakeFiles/TwoSum.dir/DependInfo.cmake"
-  "CMakeFiles/MedianofTwoSortedArrays.dir/DependInfo.cmake"
-  "CMakeFiles/NationTrip.dir/DependInfo.cmake"
-  "CMakeFiles/String.dir/DependInfo.cmake"
-  "CMakeFiles/ContainerWithMostWater.dir/DependInfo.cmake"
-  "CMakeFiles/3Sum.dir/DependInfo.cmake"
+  "Array/CMakeFiles/3SumClosest.dir/DependInfo.cmake"
+  "Array/CMakeFiles/TwoSum.dir/DependInfo.cmake"
+  "Array/CMakeFiles/MedianofTwoSortedArrays.dir/DependInfo.cmake"
+  "Array/CMakeFiles/ContainerWithMostWater.dir/DependInfo.cmake"
+  "Array/CMakeFiles/3Sum.dir/DependInfo.cmake"
   )

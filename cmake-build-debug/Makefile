@@ -119,21 +119,8 @@ depend:
 
 # fast build rule for target.
 3SumClosest/fast:
-	$(MAKE) -f CMakeFiles\3SumClosest.dir\build.make CMakeFiles/3SumClosest.dir/build
+	$(MAKE) -f Array\CMakeFiles\3SumClosest.dir\build.make Array/CMakeFiles/3SumClosest.dir/build
 .PHONY : 3SumClosest/fast
-
-#=============================================================================
-# Target rules for targets named Island
-
-# Build rule for target.
-Island: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Island
-.PHONY : Island
-
-# fast build rule for target.
-Island/fast:
-	$(MAKE) -f CMakeFiles\Island.dir\build.make CMakeFiles/Island.dir/build
-.PHONY : Island/fast
 
 #=============================================================================
 # Target rules for targets named TwoSum
@@ -145,7 +132,7 @@ TwoSum: cmake_check_build_system
 
 # fast build rule for target.
 TwoSum/fast:
-	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/build
+	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/build
 .PHONY : TwoSum/fast
 
 #=============================================================================
@@ -158,34 +145,8 @@ MedianofTwoSortedArrays: cmake_check_build_system
 
 # fast build rule for target.
 MedianofTwoSortedArrays/fast:
-	$(MAKE) -f CMakeFiles\MedianofTwoSortedArrays.dir\build.make CMakeFiles/MedianofTwoSortedArrays.dir/build
+	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/build
 .PHONY : MedianofTwoSortedArrays/fast
-
-#=============================================================================
-# Target rules for targets named NationTrip
-
-# Build rule for target.
-NationTrip: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 NationTrip
-.PHONY : NationTrip
-
-# fast build rule for target.
-NationTrip/fast:
-	$(MAKE) -f CMakeFiles\NationTrip.dir\build.make CMakeFiles/NationTrip.dir/build
-.PHONY : NationTrip/fast
-
-#=============================================================================
-# Target rules for targets named String
-
-# Build rule for target.
-String: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 String
-.PHONY : String
-
-# fast build rule for target.
-String/fast:
-	$(MAKE) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/build
-.PHONY : String/fast
 
 #=============================================================================
 # Target rules for targets named ContainerWithMostWater
@@ -197,7 +158,7 @@ ContainerWithMostWater: cmake_check_build_system
 
 # fast build rule for target.
 ContainerWithMostWater/fast:
-	$(MAKE) -f CMakeFiles\ContainerWithMostWater.dir\build.make CMakeFiles/ContainerWithMostWater.dir/build
+	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/build
 .PHONY : ContainerWithMostWater/fast
 
 #=============================================================================
@@ -210,224 +171,8 @@ ContainerWithMostWater/fast:
 
 # fast build rule for target.
 3Sum/fast:
-	$(MAKE) -f CMakeFiles\3Sum.dir\build.make CMakeFiles/3Sum.dir/build
+	$(MAKE) -f Array\CMakeFiles\3Sum.dir\build.make Array/CMakeFiles/3Sum.dir/build
 .PHONY : 3Sum/fast
-
-Array/11.ContainerWithMostWater.obj: Array/11.ContainerWithMostWater.cpp.obj
-
-.PHONY : Array/11.ContainerWithMostWater.obj
-
-# target to build an object file
-Array/11.ContainerWithMostWater.cpp.obj:
-	$(MAKE) -f CMakeFiles\ContainerWithMostWater.dir\build.make CMakeFiles/ContainerWithMostWater.dir/Array/11.ContainerWithMostWater.cpp.obj
-.PHONY : Array/11.ContainerWithMostWater.cpp.obj
-
-Array/11.ContainerWithMostWater.i: Array/11.ContainerWithMostWater.cpp.i
-
-.PHONY : Array/11.ContainerWithMostWater.i
-
-# target to preprocess a source file
-Array/11.ContainerWithMostWater.cpp.i:
-	$(MAKE) -f CMakeFiles\ContainerWithMostWater.dir\build.make CMakeFiles/ContainerWithMostWater.dir/Array/11.ContainerWithMostWater.cpp.i
-.PHONY : Array/11.ContainerWithMostWater.cpp.i
-
-Array/11.ContainerWithMostWater.s: Array/11.ContainerWithMostWater.cpp.s
-
-.PHONY : Array/11.ContainerWithMostWater.s
-
-# target to generate assembly for a file
-Array/11.ContainerWithMostWater.cpp.s:
-	$(MAKE) -f CMakeFiles\ContainerWithMostWater.dir\build.make CMakeFiles/ContainerWithMostWater.dir/Array/11.ContainerWithMostWater.cpp.s
-.PHONY : Array/11.ContainerWithMostWater.cpp.s
-
-Array/15.3Sum.obj: Array/15.3Sum.cpp.obj
-
-.PHONY : Array/15.3Sum.obj
-
-# target to build an object file
-Array/15.3Sum.cpp.obj:
-	$(MAKE) -f CMakeFiles\3Sum.dir\build.make CMakeFiles/3Sum.dir/Array/15.3Sum.cpp.obj
-.PHONY : Array/15.3Sum.cpp.obj
-
-Array/15.3Sum.i: Array/15.3Sum.cpp.i
-
-.PHONY : Array/15.3Sum.i
-
-# target to preprocess a source file
-Array/15.3Sum.cpp.i:
-	$(MAKE) -f CMakeFiles\3Sum.dir\build.make CMakeFiles/3Sum.dir/Array/15.3Sum.cpp.i
-.PHONY : Array/15.3Sum.cpp.i
-
-Array/15.3Sum.s: Array/15.3Sum.cpp.s
-
-.PHONY : Array/15.3Sum.s
-
-# target to generate assembly for a file
-Array/15.3Sum.cpp.s:
-	$(MAKE) -f CMakeFiles\3Sum.dir\build.make CMakeFiles/3Sum.dir/Array/15.3Sum.cpp.s
-.PHONY : Array/15.3Sum.cpp.s
-
-Array/16.3SumClosest.obj: Array/16.3SumClosest.cpp.obj
-
-.PHONY : Array/16.3SumClosest.obj
-
-# target to build an object file
-Array/16.3SumClosest.cpp.obj:
-	$(MAKE) -f CMakeFiles\3SumClosest.dir\build.make CMakeFiles/3SumClosest.dir/Array/16.3SumClosest.cpp.obj
-.PHONY : Array/16.3SumClosest.cpp.obj
-
-Array/16.3SumClosest.i: Array/16.3SumClosest.cpp.i
-
-.PHONY : Array/16.3SumClosest.i
-
-# target to preprocess a source file
-Array/16.3SumClosest.cpp.i:
-	$(MAKE) -f CMakeFiles\3SumClosest.dir\build.make CMakeFiles/3SumClosest.dir/Array/16.3SumClosest.cpp.i
-.PHONY : Array/16.3SumClosest.cpp.i
-
-Array/16.3SumClosest.s: Array/16.3SumClosest.cpp.s
-
-.PHONY : Array/16.3SumClosest.s
-
-# target to generate assembly for a file
-Array/16.3SumClosest.cpp.s:
-	$(MAKE) -f CMakeFiles\3SumClosest.dir\build.make CMakeFiles/3SumClosest.dir/Array/16.3SumClosest.cpp.s
-.PHONY : Array/16.3SumClosest.cpp.s
-
-Array/MedianofTwoSortedArrays.obj: Array/MedianofTwoSortedArrays.cpp.obj
-
-.PHONY : Array/MedianofTwoSortedArrays.obj
-
-# target to build an object file
-Array/MedianofTwoSortedArrays.cpp.obj:
-	$(MAKE) -f CMakeFiles\MedianofTwoSortedArrays.dir\build.make CMakeFiles/MedianofTwoSortedArrays.dir/Array/MedianofTwoSortedArrays.cpp.obj
-.PHONY : Array/MedianofTwoSortedArrays.cpp.obj
-
-Array/MedianofTwoSortedArrays.i: Array/MedianofTwoSortedArrays.cpp.i
-
-.PHONY : Array/MedianofTwoSortedArrays.i
-
-# target to preprocess a source file
-Array/MedianofTwoSortedArrays.cpp.i:
-	$(MAKE) -f CMakeFiles\MedianofTwoSortedArrays.dir\build.make CMakeFiles/MedianofTwoSortedArrays.dir/Array/MedianofTwoSortedArrays.cpp.i
-.PHONY : Array/MedianofTwoSortedArrays.cpp.i
-
-Array/MedianofTwoSortedArrays.s: Array/MedianofTwoSortedArrays.cpp.s
-
-.PHONY : Array/MedianofTwoSortedArrays.s
-
-# target to generate assembly for a file
-Array/MedianofTwoSortedArrays.cpp.s:
-	$(MAKE) -f CMakeFiles\MedianofTwoSortedArrays.dir\build.make CMakeFiles/MedianofTwoSortedArrays.dir/Array/MedianofTwoSortedArrays.cpp.s
-.PHONY : Array/MedianofTwoSortedArrays.cpp.s
-
-Array/TwoSum.obj: Array/TwoSum.cpp.obj
-
-.PHONY : Array/TwoSum.obj
-
-# target to build an object file
-Array/TwoSum.cpp.obj:
-	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/Array/TwoSum.cpp.obj
-.PHONY : Array/TwoSum.cpp.obj
-
-Array/TwoSum.i: Array/TwoSum.cpp.i
-
-.PHONY : Array/TwoSum.i
-
-# target to preprocess a source file
-Array/TwoSum.cpp.i:
-	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/Array/TwoSum.cpp.i
-.PHONY : Array/TwoSum.cpp.i
-
-Array/TwoSum.s: Array/TwoSum.cpp.s
-
-.PHONY : Array/TwoSum.s
-
-# target to generate assembly for a file
-Array/TwoSum.cpp.s:
-	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/Array/TwoSum.cpp.s
-.PHONY : Array/TwoSum.cpp.s
-
-ByteDance/Island.obj: ByteDance/Island.cpp.obj
-
-.PHONY : ByteDance/Island.obj
-
-# target to build an object file
-ByteDance/Island.cpp.obj:
-	$(MAKE) -f CMakeFiles\Island.dir\build.make CMakeFiles/Island.dir/ByteDance/Island.cpp.obj
-.PHONY : ByteDance/Island.cpp.obj
-
-ByteDance/Island.i: ByteDance/Island.cpp.i
-
-.PHONY : ByteDance/Island.i
-
-# target to preprocess a source file
-ByteDance/Island.cpp.i:
-	$(MAKE) -f CMakeFiles\Island.dir\build.make CMakeFiles/Island.dir/ByteDance/Island.cpp.i
-.PHONY : ByteDance/Island.cpp.i
-
-ByteDance/Island.s: ByteDance/Island.cpp.s
-
-.PHONY : ByteDance/Island.s
-
-# target to generate assembly for a file
-ByteDance/Island.cpp.s:
-	$(MAKE) -f CMakeFiles\Island.dir\build.make CMakeFiles/Island.dir/ByteDance/Island.cpp.s
-.PHONY : ByteDance/Island.cpp.s
-
-ByteDance/NationTrip.obj: ByteDance/NationTrip.cpp.obj
-
-.PHONY : ByteDance/NationTrip.obj
-
-# target to build an object file
-ByteDance/NationTrip.cpp.obj:
-	$(MAKE) -f CMakeFiles\NationTrip.dir\build.make CMakeFiles/NationTrip.dir/ByteDance/NationTrip.cpp.obj
-.PHONY : ByteDance/NationTrip.cpp.obj
-
-ByteDance/NationTrip.i: ByteDance/NationTrip.cpp.i
-
-.PHONY : ByteDance/NationTrip.i
-
-# target to preprocess a source file
-ByteDance/NationTrip.cpp.i:
-	$(MAKE) -f CMakeFiles\NationTrip.dir\build.make CMakeFiles/NationTrip.dir/ByteDance/NationTrip.cpp.i
-.PHONY : ByteDance/NationTrip.cpp.i
-
-ByteDance/NationTrip.s: ByteDance/NationTrip.cpp.s
-
-.PHONY : ByteDance/NationTrip.s
-
-# target to generate assembly for a file
-ByteDance/NationTrip.cpp.s:
-	$(MAKE) -f CMakeFiles\NationTrip.dir\build.make CMakeFiles/NationTrip.dir/ByteDance/NationTrip.cpp.s
-.PHONY : ByteDance/NationTrip.cpp.s
-
-ByteDance/String.obj: ByteDance/String.cpp.obj
-
-.PHONY : ByteDance/String.obj
-
-# target to build an object file
-ByteDance/String.cpp.obj:
-	$(MAKE) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/ByteDance/String.cpp.obj
-.PHONY : ByteDance/String.cpp.obj
-
-ByteDance/String.i: ByteDance/String.cpp.i
-
-.PHONY : ByteDance/String.i
-
-# target to preprocess a source file
-ByteDance/String.cpp.i:
-	$(MAKE) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/ByteDance/String.cpp.i
-.PHONY : ByteDance/String.cpp.i
-
-ByteDance/String.s: ByteDance/String.cpp.s
-
-.PHONY : ByteDance/String.s
-
-# target to generate assembly for a file
-ByteDance/String.cpp.s:
-	$(MAKE) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/ByteDance/String.cpp.s
-.PHONY : ByteDance/String.cpp.s
 
 # Help Target
 help:
@@ -435,40 +180,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... 3SumClosest
-	@echo ... Island
 	@echo ... TwoSum
 	@echo ... MedianofTwoSortedArrays
-	@echo ... NationTrip
-	@echo ... edit_cache
-	@echo ... String
 	@echo ... ContainerWithMostWater
-	@echo ... rebuild_cache
 	@echo ... 3Sum
-	@echo ... Array/11.ContainerWithMostWater.obj
-	@echo ... Array/11.ContainerWithMostWater.i
-	@echo ... Array/11.ContainerWithMostWater.s
-	@echo ... Array/15.3Sum.obj
-	@echo ... Array/15.3Sum.i
-	@echo ... Array/15.3Sum.s
-	@echo ... Array/16.3SumClosest.obj
-	@echo ... Array/16.3SumClosest.i
-	@echo ... Array/16.3SumClosest.s
-	@echo ... Array/MedianofTwoSortedArrays.obj
-	@echo ... Array/MedianofTwoSortedArrays.i
-	@echo ... Array/MedianofTwoSortedArrays.s
-	@echo ... Array/TwoSum.obj
-	@echo ... Array/TwoSum.i
-	@echo ... Array/TwoSum.s
-	@echo ... ByteDance/Island.obj
-	@echo ... ByteDance/Island.i
-	@echo ... ByteDance/Island.s
-	@echo ... ByteDance/NationTrip.obj
-	@echo ... ByteDance/NationTrip.i
-	@echo ... ByteDance/NationTrip.s
-	@echo ... ByteDance/String.obj
-	@echo ... ByteDance/String.i
-	@echo ... ByteDance/String.s
 .PHONY : help
 
 

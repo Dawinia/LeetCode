@@ -64,298 +64,213 @@ CMAKE_SOURCE_DIR = E:\CodeBook\LeetCode
 CMAKE_BINARY_DIR = E:\CodeBook\LeetCode\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/3SumClosest.dir
+# Directory level rules for directory Array
+
+# Convenience name for "all" pass in the directory.
+Array/all: Array/CMakeFiles/3SumClosest.dir/all
+Array/all: Array/CMakeFiles/TwoSum.dir/all
+Array/all: Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
+Array/all: Array/CMakeFiles/ContainerWithMostWater.dir/all
+Array/all: Array/CMakeFiles/3Sum.dir/all
+
+.PHONY : Array/all
+
+# Convenience name for "clean" pass in the directory.
+Array/clean: Array/CMakeFiles/3SumClosest.dir/clean
+Array/clean: Array/CMakeFiles/TwoSum.dir/clean
+Array/clean: Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
+Array/clean: Array/CMakeFiles/ContainerWithMostWater.dir/clean
+Array/clean: Array/CMakeFiles/3Sum.dir/clean
+
+.PHONY : Array/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Array/preinstall:
+
+.PHONY : Array/preinstall
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/3SumClosest.dir
 
 # All Build rule for target.
-CMakeFiles/3SumClosest.dir/all:
-	$(MAKE) -f CMakeFiles\3SumClosest.dir\build.make CMakeFiles/3SumClosest.dir/depend
-	$(MAKE) -f CMakeFiles\3SumClosest.dir\build.make CMakeFiles/3SumClosest.dir/build
+Array/CMakeFiles/3SumClosest.dir/all:
+	$(MAKE) -f Array\CMakeFiles\3SumClosest.dir\build.make Array/CMakeFiles/3SumClosest.dir/depend
+	$(MAKE) -f Array\CMakeFiles\3SumClosest.dir\build.make Array/CMakeFiles/3SumClosest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 3SumClosest"
-.PHONY : CMakeFiles/3SumClosest.dir/all
+.PHONY : Array/CMakeFiles/3SumClosest.dir/all
 
 # Include target in all.
-all: CMakeFiles/3SumClosest.dir/all
+all: Array/CMakeFiles/3SumClosest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3SumClosest.dir/rule: cmake_check_build_system
+Array/CMakeFiles/3SumClosest.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3SumClosest.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/3SumClosest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/3SumClosest.dir/rule
+.PHONY : Array/CMakeFiles/3SumClosest.dir/rule
 
 # Convenience name for target.
-3SumClosest: CMakeFiles/3SumClosest.dir/rule
+3SumClosest: Array/CMakeFiles/3SumClosest.dir/rule
 
 .PHONY : 3SumClosest
 
 # clean rule for target.
-CMakeFiles/3SumClosest.dir/clean:
-	$(MAKE) -f CMakeFiles\3SumClosest.dir\build.make CMakeFiles/3SumClosest.dir/clean
-.PHONY : CMakeFiles/3SumClosest.dir/clean
+Array/CMakeFiles/3SumClosest.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\3SumClosest.dir\build.make Array/CMakeFiles/3SumClosest.dir/clean
+.PHONY : Array/CMakeFiles/3SumClosest.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/3SumClosest.dir/clean
+clean: Array/CMakeFiles/3SumClosest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Island.dir
+# Target rules for target Array/CMakeFiles/TwoSum.dir
 
 # All Build rule for target.
-CMakeFiles/Island.dir/all:
-	$(MAKE) -f CMakeFiles\Island.dir\build.make CMakeFiles/Island.dir/depend
-	$(MAKE) -f CMakeFiles\Island.dir\build.make CMakeFiles/Island.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Island"
-.PHONY : CMakeFiles/Island.dir/all
+Array/CMakeFiles/TwoSum.dir/all:
+	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/depend
+	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target TwoSum"
+.PHONY : Array/CMakeFiles/TwoSum.dir/all
 
 # Include target in all.
-all: CMakeFiles/Island.dir/all
+all: Array/CMakeFiles/TwoSum.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Island.dir/rule: cmake_check_build_system
+Array/CMakeFiles/TwoSum.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Island.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/TwoSum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Island.dir/rule
+.PHONY : Array/CMakeFiles/TwoSum.dir/rule
 
 # Convenience name for target.
-Island: CMakeFiles/Island.dir/rule
-
-.PHONY : Island
-
-# clean rule for target.
-CMakeFiles/Island.dir/clean:
-	$(MAKE) -f CMakeFiles\Island.dir\build.make CMakeFiles/Island.dir/clean
-.PHONY : CMakeFiles/Island.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Island.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/TwoSum.dir
-
-# All Build rule for target.
-CMakeFiles/TwoSum.dir/all:
-	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/depend
-	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target TwoSum"
-.PHONY : CMakeFiles/TwoSum.dir/all
-
-# Include target in all.
-all: CMakeFiles/TwoSum.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/TwoSum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/TwoSum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/TwoSum.dir/rule
-
-# Convenience name for target.
-TwoSum: CMakeFiles/TwoSum.dir/rule
+TwoSum: Array/CMakeFiles/TwoSum.dir/rule
 
 .PHONY : TwoSum
 
 # clean rule for target.
-CMakeFiles/TwoSum.dir/clean:
-	$(MAKE) -f CMakeFiles\TwoSum.dir\build.make CMakeFiles/TwoSum.dir/clean
-.PHONY : CMakeFiles/TwoSum.dir/clean
+Array/CMakeFiles/TwoSum.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/clean
+.PHONY : Array/CMakeFiles/TwoSum.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/TwoSum.dir/clean
+clean: Array/CMakeFiles/TwoSum.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MedianofTwoSortedArrays.dir
+# Target rules for target Array/CMakeFiles/MedianofTwoSortedArrays.dir
 
 # All Build rule for target.
-CMakeFiles/MedianofTwoSortedArrays.dir/all:
-	$(MAKE) -f CMakeFiles\MedianofTwoSortedArrays.dir\build.make CMakeFiles/MedianofTwoSortedArrays.dir/depend
-	$(MAKE) -f CMakeFiles\MedianofTwoSortedArrays.dir\build.make CMakeFiles/MedianofTwoSortedArrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target MedianofTwoSortedArrays"
-.PHONY : CMakeFiles/MedianofTwoSortedArrays.dir/all
+Array/CMakeFiles/MedianofTwoSortedArrays.dir/all:
+	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/depend
+	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target MedianofTwoSortedArrays"
+.PHONY : Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 
 # Include target in all.
-all: CMakeFiles/MedianofTwoSortedArrays.dir/all
+all: Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MedianofTwoSortedArrays.dir/rule: cmake_check_build_system
+Array/CMakeFiles/MedianofTwoSortedArrays.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/MedianofTwoSortedArrays.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/MedianofTwoSortedArrays.dir/rule
+.PHONY : Array/CMakeFiles/MedianofTwoSortedArrays.dir/rule
 
 # Convenience name for target.
-MedianofTwoSortedArrays: CMakeFiles/MedianofTwoSortedArrays.dir/rule
+MedianofTwoSortedArrays: Array/CMakeFiles/MedianofTwoSortedArrays.dir/rule
 
 .PHONY : MedianofTwoSortedArrays
 
 # clean rule for target.
-CMakeFiles/MedianofTwoSortedArrays.dir/clean:
-	$(MAKE) -f CMakeFiles\MedianofTwoSortedArrays.dir\build.make CMakeFiles/MedianofTwoSortedArrays.dir/clean
-.PHONY : CMakeFiles/MedianofTwoSortedArrays.dir/clean
+Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
+.PHONY : Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/MedianofTwoSortedArrays.dir/clean
+clean: Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NationTrip.dir
+# Target rules for target Array/CMakeFiles/ContainerWithMostWater.dir
 
 # All Build rule for target.
-CMakeFiles/NationTrip.dir/all:
-	$(MAKE) -f CMakeFiles\NationTrip.dir\build.make CMakeFiles/NationTrip.dir/depend
-	$(MAKE) -f CMakeFiles\NationTrip.dir\build.make CMakeFiles/NationTrip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target NationTrip"
-.PHONY : CMakeFiles/NationTrip.dir/all
-
-# Include target in all.
-all: CMakeFiles/NationTrip.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/NationTrip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/NationTrip.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/NationTrip.dir/rule
-
-# Convenience name for target.
-NationTrip: CMakeFiles/NationTrip.dir/rule
-
-.PHONY : NationTrip
-
-# clean rule for target.
-CMakeFiles/NationTrip.dir/clean:
-	$(MAKE) -f CMakeFiles\NationTrip.dir\build.make CMakeFiles/NationTrip.dir/clean
-.PHONY : CMakeFiles/NationTrip.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/NationTrip.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/String.dir
-
-# All Build rule for target.
-CMakeFiles/String.dir/all:
-	$(MAKE) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/depend
-	$(MAKE) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target String"
-.PHONY : CMakeFiles/String.dir/all
-
-# Include target in all.
-all: CMakeFiles/String.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/String.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/String.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/String.dir/rule
-
-# Convenience name for target.
-String: CMakeFiles/String.dir/rule
-
-.PHONY : String
-
-# clean rule for target.
-CMakeFiles/String.dir/clean:
-	$(MAKE) -f CMakeFiles\String.dir\build.make CMakeFiles/String.dir/clean
-.PHONY : CMakeFiles/String.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/String.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ContainerWithMostWater.dir
-
-# All Build rule for target.
-CMakeFiles/ContainerWithMostWater.dir/all:
-	$(MAKE) -f CMakeFiles\ContainerWithMostWater.dir\build.make CMakeFiles/ContainerWithMostWater.dir/depend
-	$(MAKE) -f CMakeFiles\ContainerWithMostWater.dir\build.make CMakeFiles/ContainerWithMostWater.dir/build
+Array/CMakeFiles/ContainerWithMostWater.dir/all:
+	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/depend
+	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target ContainerWithMostWater"
-.PHONY : CMakeFiles/ContainerWithMostWater.dir/all
+.PHONY : Array/CMakeFiles/ContainerWithMostWater.dir/all
 
 # Include target in all.
-all: CMakeFiles/ContainerWithMostWater.dir/all
+all: Array/CMakeFiles/ContainerWithMostWater.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ContainerWithMostWater.dir/rule: cmake_check_build_system
+Array/CMakeFiles/ContainerWithMostWater.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ContainerWithMostWater.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/ContainerWithMostWater.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/ContainerWithMostWater.dir/rule
+.PHONY : Array/CMakeFiles/ContainerWithMostWater.dir/rule
 
 # Convenience name for target.
-ContainerWithMostWater: CMakeFiles/ContainerWithMostWater.dir/rule
+ContainerWithMostWater: Array/CMakeFiles/ContainerWithMostWater.dir/rule
 
 .PHONY : ContainerWithMostWater
 
 # clean rule for target.
-CMakeFiles/ContainerWithMostWater.dir/clean:
-	$(MAKE) -f CMakeFiles\ContainerWithMostWater.dir\build.make CMakeFiles/ContainerWithMostWater.dir/clean
-.PHONY : CMakeFiles/ContainerWithMostWater.dir/clean
+Array/CMakeFiles/ContainerWithMostWater.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/clean
+.PHONY : Array/CMakeFiles/ContainerWithMostWater.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/ContainerWithMostWater.dir/clean
+clean: Array/CMakeFiles/ContainerWithMostWater.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/3Sum.dir
+# Target rules for target Array/CMakeFiles/3Sum.dir
 
 # All Build rule for target.
-CMakeFiles/3Sum.dir/all:
-	$(MAKE) -f CMakeFiles\3Sum.dir\build.make CMakeFiles/3Sum.dir/depend
-	$(MAKE) -f CMakeFiles\3Sum.dir\build.make CMakeFiles/3Sum.dir/build
+Array/CMakeFiles/3Sum.dir/all:
+	$(MAKE) -f Array\CMakeFiles\3Sum.dir\build.make Array/CMakeFiles/3Sum.dir/depend
+	$(MAKE) -f Array\CMakeFiles\3Sum.dir\build.make Array/CMakeFiles/3Sum.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 3Sum"
-.PHONY : CMakeFiles/3Sum.dir/all
+.PHONY : Array/CMakeFiles/3Sum.dir/all
 
 # Include target in all.
-all: CMakeFiles/3Sum.dir/all
+all: Array/CMakeFiles/3Sum.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/3Sum.dir/rule: cmake_check_build_system
+Array/CMakeFiles/3Sum.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3Sum.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/3Sum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/3Sum.dir/rule
+.PHONY : Array/CMakeFiles/3Sum.dir/rule
 
 # Convenience name for target.
-3Sum: CMakeFiles/3Sum.dir/rule
+3Sum: Array/CMakeFiles/3Sum.dir/rule
 
 .PHONY : 3Sum
 
 # clean rule for target.
-CMakeFiles/3Sum.dir/clean:
-	$(MAKE) -f CMakeFiles\3Sum.dir\build.make CMakeFiles/3Sum.dir/clean
-.PHONY : CMakeFiles/3Sum.dir/clean
+Array/CMakeFiles/3Sum.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\3Sum.dir\build.make Array/CMakeFiles/3Sum.dir/clean
+.PHONY : Array/CMakeFiles/3Sum.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/3Sum.dir/clean
+clean: Array/CMakeFiles/3Sum.dir/clean
 
 .PHONY : clean
 
