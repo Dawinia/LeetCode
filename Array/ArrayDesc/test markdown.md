@@ -2,4 +2,4 @@
 
 ### for CLion
 
-![1563416652595](C:\Users\Dawinia Lo\AppData\Roaming\Typora\typora-user-images\1563416652595.png)
+![1563416652595](E:\CodeBook\LeetCode\Array\ArrayImage\16.3SumClosest.png)

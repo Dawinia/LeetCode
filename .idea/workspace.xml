@@ -16,7 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba249532-1a68-40af-b4ec-570a90b9fbfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Array/ArrayImage/16.3SumClosest.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ArrayDesc/test markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ArrayDesc/test markdown.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/Array/ArrayDesc/test markdown.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="57">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
               </first_editor>
               <second_editor />
             </state>
@@ -128,6 +130,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Array/15.3Sum.cpp" />
         <option value="$PROJECT_DIR$/Array/16.3SumClosest.cpp" />
+        <option value="$PROJECT_DIR$/Array/ArrayDesc/test markdown.md" />
       </list>
     </option>
   </component>
@@ -159,6 +162,12 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="Array" type="462c0819:PsiDirectoryNode" />
               <item name="ArrayDesc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayImage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,7 +262,7 @@
       <workItem from="1559293274151" duration="92000" />
       <workItem from="1563323836307" duration="9674000" />
       <workItem from="1563410794910" duration="5088000" />
-      <workItem from="1563415935149" duration="691000" />
+      <workItem from="1563415935149" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode联系代码，language: C++">
       <created>1563332589932</created>
@@ -276,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563413422569</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加测试markdown文件">
+      <created>1563416826369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563416826369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47686000" />
+    <option name="totallyTimeSpent" value="49566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -356,7 +372,8 @@
     <MESSAGE value="LeetCode联系代码，language: C++" />
     <MESSAGE value="添加子目录CMakeLists.txt文件，修改几个文件的文件名，对应LeetCode里题目顺序" />
     <MESSAGE value="15, 16两道题" />
-    <option name="LAST_COMMIT_MESSAGE" value="15, 16两道题" />
+    <MESSAGE value="添加测试markdown文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加测试markdown文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,8 +533,8 @@
     <entry file="file://$PROJECT_DIR$/Array/ArrayDesc/test markdown.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="57">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
           </first_editor>
           <second_editor />
         </state>
