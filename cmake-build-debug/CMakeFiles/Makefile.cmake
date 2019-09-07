@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/JetBrains/apps/CLion/ch-0/192.6262.62/bin/cmake/win/share/cmake-3.14/Modules/ProcessorCount.cmake"
   "../Array/CMakeLists.txt"
   "../CMakeLists.txt"
+  "../DynamicProgramming/CMakeLists.txt"
   "../String/CMakeLists.txt"
   "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
@@ -53,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Array/CMakeFiles/CMakeDirectoryInformation.cmake"
   "String/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "DynamicProgramming/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -68,4 +70,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "String/CMakeFiles/RomantoInteger.dir/DependInfo.cmake"
   "String/CMakeFiles/LongestCommonPrefix.dir/DependInfo.cmake"
   "String/CMakeFiles/ValidParentheses.dir/DependInfo.cmake"
+  "String/CMakeFiles/ImplementstrStr.dir/DependInfo.cmake"
+  "DynamicProgramming/CMakeFiles/MaximumSubarray.dir/DependInfo.cmake"
+  "DynamicProgramming/CMakeFiles/ClimbingStairs.dir/DependInfo.cmake"
   )

@@ -5,7 +5,7 @@
 		<Option title="LeetCode"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Array\;CMake Files\String\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Array\;CMake Files\String\;CMake Files\DynamicProgramming\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug"/>
@@ -521,6 +521,138 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ImplementstrStr">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/String/ImplementstrStr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/String"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 ImplementstrStr"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImplementstrStr/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/String/ImplementstrStr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/String"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 ImplementstrStr/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/String/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MaximumSubarray">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/MaximumSubarray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 MaximumSubarray"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MaximumSubarray/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/MaximumSubarray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 MaximumSubarray/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClimbingStairs">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/ClimbingStairs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 ClimbingStairs"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClimbingStairs/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/ClimbingStairs.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 ClimbingStairs/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/DynamicProgramming/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="E:/CodeBook/LeetCode/Array/1.TwoSum.cpp">
 			<Option target="TwoSum"/>
@@ -546,6 +678,12 @@
 		<Unit filename="E:/CodeBook/LeetCode/Array/4.MedianofTwoSortedArrays.cpp">
 			<Option target="MedianofTwoSortedArrays"/>
 		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/DynamicProgramming/53.MaximumSubarray.cpp">
+			<Option target="MaximumSubarray"/>
+		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/DynamicProgramming/70.ClimbingStairs.cpp">
+			<Option target="ClimbingStairs"/>
+		</Unit>
 		<Unit filename="E:/CodeBook/LeetCode/String/13.RomantoInteger.cpp">
 			<Option target="RomantoInteger"/>
 		</Unit>
@@ -555,6 +693,9 @@
 		<Unit filename="E:/CodeBook/LeetCode/String/20.ValidParentheses.cpp">
 			<Option target="ValidParentheses"/>
 		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/String/28.ImplementstrStr.cpp">
+			<Option target="ImplementstrStr"/>
+		</Unit>
 		<Unit filename="E:/CodeBook/LeetCode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -563,6 +704,9 @@
 		</Unit>
 		<Unit filename="E:/CodeBook/LeetCode/String/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\String\"/>
+		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/DynamicProgramming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DynamicProgramming\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

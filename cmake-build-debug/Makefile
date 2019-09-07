@@ -252,6 +252,45 @@ ValidParentheses/fast:
 	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/build
 .PHONY : ValidParentheses/fast
 
+#=============================================================================
+# Target rules for targets named ImplementstrStr
+
+# Build rule for target.
+ImplementstrStr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ImplementstrStr
+.PHONY : ImplementstrStr
+
+# fast build rule for target.
+ImplementstrStr/fast:
+	$(MAKE) -f String\CMakeFiles\ImplementstrStr.dir\build.make String/CMakeFiles/ImplementstrStr.dir/build
+.PHONY : ImplementstrStr/fast
+
+#=============================================================================
+# Target rules for targets named MaximumSubarray
+
+# Build rule for target.
+MaximumSubarray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 MaximumSubarray
+.PHONY : MaximumSubarray
+
+# fast build rule for target.
+MaximumSubarray/fast:
+	$(MAKE) -f DynamicProgramming\CMakeFiles\MaximumSubarray.dir\build.make DynamicProgramming/CMakeFiles/MaximumSubarray.dir/build
+.PHONY : MaximumSubarray/fast
+
+#=============================================================================
+# Target rules for targets named ClimbingStairs
+
+# Build rule for target.
+ClimbingStairs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ClimbingStairs
+.PHONY : ClimbingStairs
+
+# fast build rule for target.
+ClimbingStairs/fast:
+	$(MAKE) -f DynamicProgramming\CMakeFiles\ClimbingStairs.dir\build.make DynamicProgramming/CMakeFiles/ClimbingStairs.dir/build
+.PHONY : ClimbingStairs/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -271,6 +310,9 @@ help:
 	@echo ... RomantoInteger
 	@echo ... LongestCommonPrefix
 	@echo ... ValidParentheses
+	@echo ... ImplementstrStr
+	@echo ... MaximumSubarray
+	@echo ... ClimbingStairs
 .PHONY : help
 
 

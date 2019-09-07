@@ -139,7 +139,7 @@ clean: Array/CMakeFiles/3SumClosest.dir/clean
 Array/CMakeFiles/TwoSum.dir/all:
 	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/depend
 	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target TwoSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target TwoSum"
 .PHONY : Array/CMakeFiles/TwoSum.dir/all
 
 # Include target in all.
@@ -176,7 +176,7 @@ clean: Array/CMakeFiles/TwoSum.dir/clean
 Array/CMakeFiles/RemoveElement.dir/all:
 	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/depend
 	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target RemoveElement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target RemoveElement"
 .PHONY : Array/CMakeFiles/RemoveElement.dir/all
 
 # Include target in all.
@@ -213,7 +213,7 @@ clean: Array/CMakeFiles/RemoveElement.dir/clean
 Array/CMakeFiles/MedianofTwoSortedArrays.dir/all:
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/depend
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target MedianofTwoSortedArrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target MedianofTwoSortedArrays"
 .PHONY : Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 
 # Include target in all.
@@ -287,7 +287,7 @@ clean: Array/CMakeFiles/4Sum.dir/clean
 Array/CMakeFiles/ContainerWithMostWater.dir/all:
 	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/depend
 	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ContainerWithMostWater"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target ContainerWithMostWater"
 .PHONY : Array/CMakeFiles/ContainerWithMostWater.dir/all
 
 # Include target in all.
@@ -361,7 +361,7 @@ clean: Array/CMakeFiles/3Sum.dir/clean
 Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all:
 	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/depend
 	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target RemoveDuplicatesfromSortedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target RemoveDuplicatesfromSortedArray"
 .PHONY : Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
 
 # Include target in all.
@@ -398,6 +398,7 @@ clean: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
 String/all: String/CMakeFiles/RomantoInteger.dir/all
 String/all: String/CMakeFiles/LongestCommonPrefix.dir/all
 String/all: String/CMakeFiles/ValidParentheses.dir/all
+String/all: String/CMakeFiles/ImplementstrStr.dir/all
 
 .PHONY : String/all
 
@@ -405,6 +406,7 @@ String/all: String/CMakeFiles/ValidParentheses.dir/all
 String/clean: String/CMakeFiles/RomantoInteger.dir/clean
 String/clean: String/CMakeFiles/LongestCommonPrefix.dir/clean
 String/clean: String/CMakeFiles/ValidParentheses.dir/clean
+String/clean: String/CMakeFiles/ImplementstrStr.dir/clean
 
 .PHONY : String/clean
 
@@ -420,7 +422,7 @@ String/preinstall:
 String/CMakeFiles/RomantoInteger.dir/all:
 	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/depend
 	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target RomantoInteger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target RomantoInteger"
 .PHONY : String/CMakeFiles/RomantoInteger.dir/all
 
 # Include target in all.
@@ -457,7 +459,7 @@ clean: String/CMakeFiles/RomantoInteger.dir/clean
 String/CMakeFiles/LongestCommonPrefix.dir/all:
 	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/depend
 	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target LongestCommonPrefix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target LongestCommonPrefix"
 .PHONY : String/CMakeFiles/LongestCommonPrefix.dir/all
 
 # Include target in all.
@@ -494,7 +496,7 @@ clean: String/CMakeFiles/LongestCommonPrefix.dir/clean
 String/CMakeFiles/ValidParentheses.dir/all:
 	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/depend
 	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target ValidParentheses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target ValidParentheses"
 .PHONY : String/CMakeFiles/ValidParentheses.dir/all
 
 # Include target in all.
@@ -521,6 +523,137 @@ String/CMakeFiles/ValidParentheses.dir/clean:
 
 # clean rule for target.
 clean: String/CMakeFiles/ValidParentheses.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target String/CMakeFiles/ImplementstrStr.dir
+
+# All Build rule for target.
+String/CMakeFiles/ImplementstrStr.dir/all:
+	$(MAKE) -f String\CMakeFiles\ImplementstrStr.dir\build.make String/CMakeFiles/ImplementstrStr.dir/depend
+	$(MAKE) -f String\CMakeFiles\ImplementstrStr.dir\build.make String/CMakeFiles/ImplementstrStr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target ImplementstrStr"
+.PHONY : String/CMakeFiles/ImplementstrStr.dir/all
+
+# Include target in all.
+all: String/CMakeFiles/ImplementstrStr.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+String/CMakeFiles/ImplementstrStr.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 String/CMakeFiles/ImplementstrStr.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : String/CMakeFiles/ImplementstrStr.dir/rule
+
+# Convenience name for target.
+ImplementstrStr: String/CMakeFiles/ImplementstrStr.dir/rule
+
+.PHONY : ImplementstrStr
+
+# clean rule for target.
+String/CMakeFiles/ImplementstrStr.dir/clean:
+	$(MAKE) -f String\CMakeFiles\ImplementstrStr.dir\build.make String/CMakeFiles/ImplementstrStr.dir/clean
+.PHONY : String/CMakeFiles/ImplementstrStr.dir/clean
+
+# clean rule for target.
+clean: String/CMakeFiles/ImplementstrStr.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory DynamicProgramming
+
+# Convenience name for "all" pass in the directory.
+DynamicProgramming/all: DynamicProgramming/CMakeFiles/MaximumSubarray.dir/all
+DynamicProgramming/all: DynamicProgramming/CMakeFiles/ClimbingStairs.dir/all
+
+.PHONY : DynamicProgramming/all
+
+# Convenience name for "clean" pass in the directory.
+DynamicProgramming/clean: DynamicProgramming/CMakeFiles/MaximumSubarray.dir/clean
+DynamicProgramming/clean: DynamicProgramming/CMakeFiles/ClimbingStairs.dir/clean
+
+.PHONY : DynamicProgramming/clean
+
+# Convenience name for "preinstall" pass in the directory.
+DynamicProgramming/preinstall:
+
+.PHONY : DynamicProgramming/preinstall
+
+#=============================================================================
+# Target rules for target DynamicProgramming/CMakeFiles/MaximumSubarray.dir
+
+# All Build rule for target.
+DynamicProgramming/CMakeFiles/MaximumSubarray.dir/all:
+	$(MAKE) -f DynamicProgramming\CMakeFiles\MaximumSubarray.dir\build.make DynamicProgramming/CMakeFiles/MaximumSubarray.dir/depend
+	$(MAKE) -f DynamicProgramming\CMakeFiles\MaximumSubarray.dir\build.make DynamicProgramming/CMakeFiles/MaximumSubarray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target MaximumSubarray"
+.PHONY : DynamicProgramming/CMakeFiles/MaximumSubarray.dir/all
+
+# Include target in all.
+all: DynamicProgramming/CMakeFiles/MaximumSubarray.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+DynamicProgramming/CMakeFiles/MaximumSubarray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 DynamicProgramming/CMakeFiles/MaximumSubarray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : DynamicProgramming/CMakeFiles/MaximumSubarray.dir/rule
+
+# Convenience name for target.
+MaximumSubarray: DynamicProgramming/CMakeFiles/MaximumSubarray.dir/rule
+
+.PHONY : MaximumSubarray
+
+# clean rule for target.
+DynamicProgramming/CMakeFiles/MaximumSubarray.dir/clean:
+	$(MAKE) -f DynamicProgramming\CMakeFiles\MaximumSubarray.dir\build.make DynamicProgramming/CMakeFiles/MaximumSubarray.dir/clean
+.PHONY : DynamicProgramming/CMakeFiles/MaximumSubarray.dir/clean
+
+# clean rule for target.
+clean: DynamicProgramming/CMakeFiles/MaximumSubarray.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target DynamicProgramming/CMakeFiles/ClimbingStairs.dir
+
+# All Build rule for target.
+DynamicProgramming/CMakeFiles/ClimbingStairs.dir/all:
+	$(MAKE) -f DynamicProgramming\CMakeFiles\ClimbingStairs.dir\build.make DynamicProgramming/CMakeFiles/ClimbingStairs.dir/depend
+	$(MAKE) -f DynamicProgramming\CMakeFiles\ClimbingStairs.dir\build.make DynamicProgramming/CMakeFiles/ClimbingStairs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ClimbingStairs"
+.PHONY : DynamicProgramming/CMakeFiles/ClimbingStairs.dir/all
+
+# Include target in all.
+all: DynamicProgramming/CMakeFiles/ClimbingStairs.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+DynamicProgramming/CMakeFiles/ClimbingStairs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 DynamicProgramming/CMakeFiles/ClimbingStairs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : DynamicProgramming/CMakeFiles/ClimbingStairs.dir/rule
+
+# Convenience name for target.
+ClimbingStairs: DynamicProgramming/CMakeFiles/ClimbingStairs.dir/rule
+
+.PHONY : ClimbingStairs
+
+# clean rule for target.
+DynamicProgramming/CMakeFiles/ClimbingStairs.dir/clean:
+	$(MAKE) -f DynamicProgramming\CMakeFiles\ClimbingStairs.dir\build.make DynamicProgramming/CMakeFiles/ClimbingStairs.dir/clean
+.PHONY : DynamicProgramming/CMakeFiles/ClimbingStairs.dir/clean
+
+# clean rule for target.
+clean: DynamicProgramming/CMakeFiles/ClimbingStairs.dir/clean
 
 .PHONY : clean
 

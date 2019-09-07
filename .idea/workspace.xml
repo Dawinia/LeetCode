@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LeetCode" targetName="LongestCommonPrefix" />
       <config projectName="LeetCode" targetName="TwoSum" />
-      <config projectName="LeetCode" targetName="RemoveElement" />
-      <config projectName="LeetCode" targetName="3SumClosest" />
+      <config projectName="LeetCode" targetName="ClimbingStairs" />
       <config projectName="LeetCode" targetName="ValidParentheses" />
       <config projectName="LeetCode" targetName="3Sum" />
       <config projectName="LeetCode" targetName="RemoveDuplicatesfromSortedArray" />
-      <config projectName="LeetCode" targetName="ContainerWithMostWater" />
       <config projectName="LeetCode" targetName="RomantoInteger" />
       <config projectName="LeetCode" targetName="4Sum" />
+      <config projectName="LeetCode" targetName="ImplementstrStr" />
+      <config projectName="LeetCode" targetName="LongestCommonPrefix" />
+      <config projectName="LeetCode" targetName="RemoveElement" />
+      <config projectName="LeetCode" targetName="3SumClosest" />
+      <config projectName="LeetCode" targetName="ContainerWithMostWater" />
+      <config projectName="LeetCode" targetName="MaximumSubarray" />
       <config projectName="LeetCode" targetName="MedianofTwoSortedArrays" />
     </generated>
   </component>
@@ -22,24 +25,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba249532-1a68-40af-b4ec-570a90b9fbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SingleFileExecutionConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/18.4Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/26.RemoveDuplicatesfromSortedArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/27.RemoveElement.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/13.RomantoInteger.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/14.LongestCommonPrefix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/20.ValidParentheses.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/53.MaximumSubarray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/70.ClimbingStairs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/28.ImplementstrStr.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Array/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/String/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -108,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.ValidParentheses">
+  <component name="RunManager" selected="CMake Application.ClimbingStairs">
     <configuration name="3Sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="3Sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="3Sum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -124,12 +120,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClimbingStairs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ClimbingStairs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ClimbingStairs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContainerWithMostWater" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ContainerWithMostWater" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ContainerWithMostWater">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ImplementstrStr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ImplementstrStr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ImplementstrStr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestCommonPrefix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="LongestCommonPrefix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="LongestCommonPrefix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubarray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="MaximumSubarray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="MaximumSubarray">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -173,6 +184,9 @@
       <item itemvalue="CMake Application.RemoveDuplicatesfromSortedArray" />
       <item itemvalue="CMake Application.RemoveElement" />
       <item itemvalue="CMake Application.TwoSum" />
+      <item itemvalue="CMake Application.ClimbingStairs" />
+      <item itemvalue="CMake Application.MaximumSubarray" />
+      <item itemvalue="CMake Application.ImplementstrStr" />
       <item itemvalue="CMake Application.LongestCommonPrefix" />
       <item itemvalue="CMake Application.RomantoInteger" />
       <item itemvalue="CMake Application.ValidParentheses" />
@@ -206,7 +220,7 @@
       <workItem from="1564912369417" duration="111000" />
       <workItem from="1564912567487" duration="1196000" />
       <workItem from="1567744016375" duration="16411000" />
-      <workItem from="1567820723240" duration="7461000" />
+      <workItem from="1567820723240" duration="12424000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode联系代码，language: C++">
       <created>1563332589932</created>
@@ -250,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563419010914</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="string">
+      <created>1567834012462</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567834012462</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +312,8 @@
     <MESSAGE value="添加测试markdown文件" />
     <MESSAGE value="添加测试markdown文件及图片" />
     <MESSAGE value="修改图片位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改图片位置" />
+    <MESSAGE value="string" />
+    <option name="LAST_COMMIT_MESSAGE" value="string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,6 +372,16 @@
           <url>file://$PROJECT_DIR$/String/20.ValidParentheses.cpp</url>
           <line>18</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DynamicProgramming/53.MaximumSubarray.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DynamicProgramming/70.ClimbingStairs.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
