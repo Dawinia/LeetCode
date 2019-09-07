@@ -49,10 +49,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -69,18 +69,24 @@ CMAKE_BINARY_DIR = E:\CodeBook\LeetCode\cmake-build-debug
 # Convenience name for "all" pass in the directory.
 Array/all: Array/CMakeFiles/3SumClosest.dir/all
 Array/all: Array/CMakeFiles/TwoSum.dir/all
+Array/all: Array/CMakeFiles/RemoveElement.dir/all
 Array/all: Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
+Array/all: Array/CMakeFiles/4Sum.dir/all
 Array/all: Array/CMakeFiles/ContainerWithMostWater.dir/all
 Array/all: Array/CMakeFiles/3Sum.dir/all
+Array/all: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
 
 .PHONY : Array/all
 
 # Convenience name for "clean" pass in the directory.
 Array/clean: Array/CMakeFiles/3SumClosest.dir/clean
 Array/clean: Array/CMakeFiles/TwoSum.dir/clean
+Array/clean: Array/CMakeFiles/RemoveElement.dir/clean
 Array/clean: Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
+Array/clean: Array/CMakeFiles/4Sum.dir/clean
 Array/clean: Array/CMakeFiles/ContainerWithMostWater.dir/clean
 Array/clean: Array/CMakeFiles/3Sum.dir/clean
+Array/clean: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
 
 .PHONY : Array/clean
 
@@ -133,7 +139,7 @@ clean: Array/CMakeFiles/3SumClosest.dir/clean
 Array/CMakeFiles/TwoSum.dir/all:
 	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/depend
 	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target TwoSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target TwoSum"
 .PHONY : Array/CMakeFiles/TwoSum.dir/all
 
 # Include target in all.
@@ -164,13 +170,50 @@ clean: Array/CMakeFiles/TwoSum.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target Array/CMakeFiles/RemoveElement.dir
+
+# All Build rule for target.
+Array/CMakeFiles/RemoveElement.dir/all:
+	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/depend
+	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target RemoveElement"
+.PHONY : Array/CMakeFiles/RemoveElement.dir/all
+
+# Include target in all.
+all: Array/CMakeFiles/RemoveElement.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/RemoveElement.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/RemoveElement.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/RemoveElement.dir/rule
+
+# Convenience name for target.
+RemoveElement: Array/CMakeFiles/RemoveElement.dir/rule
+
+.PHONY : RemoveElement
+
+# clean rule for target.
+Array/CMakeFiles/RemoveElement.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/clean
+.PHONY : Array/CMakeFiles/RemoveElement.dir/clean
+
+# clean rule for target.
+clean: Array/CMakeFiles/RemoveElement.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target Array/CMakeFiles/MedianofTwoSortedArrays.dir
 
 # All Build rule for target.
 Array/CMakeFiles/MedianofTwoSortedArrays.dir/all:
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/depend
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target MedianofTwoSortedArrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target MedianofTwoSortedArrays"
 .PHONY : Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 
 # Include target in all.
@@ -201,13 +244,50 @@ clean: Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target Array/CMakeFiles/4Sum.dir
+
+# All Build rule for target.
+Array/CMakeFiles/4Sum.dir/all:
+	$(MAKE) -f Array\CMakeFiles\4Sum.dir\build.make Array/CMakeFiles/4Sum.dir/depend
+	$(MAKE) -f Array\CMakeFiles\4Sum.dir\build.make Array/CMakeFiles/4Sum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 4Sum"
+.PHONY : Array/CMakeFiles/4Sum.dir/all
+
+# Include target in all.
+all: Array/CMakeFiles/4Sum.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/4Sum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/4Sum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/4Sum.dir/rule
+
+# Convenience name for target.
+4Sum: Array/CMakeFiles/4Sum.dir/rule
+
+.PHONY : 4Sum
+
+# clean rule for target.
+Array/CMakeFiles/4Sum.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\4Sum.dir\build.make Array/CMakeFiles/4Sum.dir/clean
+.PHONY : Array/CMakeFiles/4Sum.dir/clean
+
+# clean rule for target.
+clean: Array/CMakeFiles/4Sum.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target Array/CMakeFiles/ContainerWithMostWater.dir
 
 # All Build rule for target.
 Array/CMakeFiles/ContainerWithMostWater.dir/all:
 	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/depend
 	$(MAKE) -f Array\CMakeFiles\ContainerWithMostWater.dir\build.make Array/CMakeFiles/ContainerWithMostWater.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target ContainerWithMostWater"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ContainerWithMostWater"
 .PHONY : Array/CMakeFiles/ContainerWithMostWater.dir/all
 
 # Include target in all.
@@ -271,6 +351,176 @@ Array/CMakeFiles/3Sum.dir/clean:
 
 # clean rule for target.
 clean: Array/CMakeFiles/3Sum.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir
+
+# All Build rule for target.
+Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all:
+	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/depend
+	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target RemoveDuplicatesfromSortedArray"
+.PHONY : Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
+
+# Include target in all.
+all: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/rule
+
+# Convenience name for target.
+RemoveDuplicatesfromSortedArray: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/rule
+
+.PHONY : RemoveDuplicatesfromSortedArray
+
+# clean rule for target.
+Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
+.PHONY : Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
+
+# clean rule for target.
+clean: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory String
+
+# Convenience name for "all" pass in the directory.
+String/all: String/CMakeFiles/RomantoInteger.dir/all
+String/all: String/CMakeFiles/LongestCommonPrefix.dir/all
+String/all: String/CMakeFiles/ValidParentheses.dir/all
+
+.PHONY : String/all
+
+# Convenience name for "clean" pass in the directory.
+String/clean: String/CMakeFiles/RomantoInteger.dir/clean
+String/clean: String/CMakeFiles/LongestCommonPrefix.dir/clean
+String/clean: String/CMakeFiles/ValidParentheses.dir/clean
+
+.PHONY : String/clean
+
+# Convenience name for "preinstall" pass in the directory.
+String/preinstall:
+
+.PHONY : String/preinstall
+
+#=============================================================================
+# Target rules for target String/CMakeFiles/RomantoInteger.dir
+
+# All Build rule for target.
+String/CMakeFiles/RomantoInteger.dir/all:
+	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/depend
+	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target RomantoInteger"
+.PHONY : String/CMakeFiles/RomantoInteger.dir/all
+
+# Include target in all.
+all: String/CMakeFiles/RomantoInteger.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+String/CMakeFiles/RomantoInteger.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 String/CMakeFiles/RomantoInteger.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : String/CMakeFiles/RomantoInteger.dir/rule
+
+# Convenience name for target.
+RomantoInteger: String/CMakeFiles/RomantoInteger.dir/rule
+
+.PHONY : RomantoInteger
+
+# clean rule for target.
+String/CMakeFiles/RomantoInteger.dir/clean:
+	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/clean
+.PHONY : String/CMakeFiles/RomantoInteger.dir/clean
+
+# clean rule for target.
+clean: String/CMakeFiles/RomantoInteger.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target String/CMakeFiles/LongestCommonPrefix.dir
+
+# All Build rule for target.
+String/CMakeFiles/LongestCommonPrefix.dir/all:
+	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/depend
+	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target LongestCommonPrefix"
+.PHONY : String/CMakeFiles/LongestCommonPrefix.dir/all
+
+# Include target in all.
+all: String/CMakeFiles/LongestCommonPrefix.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+String/CMakeFiles/LongestCommonPrefix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 String/CMakeFiles/LongestCommonPrefix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : String/CMakeFiles/LongestCommonPrefix.dir/rule
+
+# Convenience name for target.
+LongestCommonPrefix: String/CMakeFiles/LongestCommonPrefix.dir/rule
+
+.PHONY : LongestCommonPrefix
+
+# clean rule for target.
+String/CMakeFiles/LongestCommonPrefix.dir/clean:
+	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/clean
+.PHONY : String/CMakeFiles/LongestCommonPrefix.dir/clean
+
+# clean rule for target.
+clean: String/CMakeFiles/LongestCommonPrefix.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target String/CMakeFiles/ValidParentheses.dir
+
+# All Build rule for target.
+String/CMakeFiles/ValidParentheses.dir/all:
+	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/depend
+	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target ValidParentheses"
+.PHONY : String/CMakeFiles/ValidParentheses.dir/all
+
+# Include target in all.
+all: String/CMakeFiles/ValidParentheses.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+String/CMakeFiles/ValidParentheses.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 String/CMakeFiles/ValidParentheses.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : String/CMakeFiles/ValidParentheses.dir/rule
+
+# Convenience name for target.
+ValidParentheses: String/CMakeFiles/ValidParentheses.dir/rule
+
+.PHONY : ValidParentheses
+
+# clean rule for target.
+String/CMakeFiles/ValidParentheses.dir/clean:
+	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/clean
+.PHONY : String/CMakeFiles/ValidParentheses.dir/clean
+
+# clean rule for target.
+clean: String/CMakeFiles/ValidParentheses.dir/clean
 
 .PHONY : clean
 

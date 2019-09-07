@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\CodeBook\LeetCode\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -136,6 +136,19 @@ TwoSum/fast:
 .PHONY : TwoSum/fast
 
 #=============================================================================
+# Target rules for targets named RemoveElement
+
+# Build rule for target.
+RemoveElement: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RemoveElement
+.PHONY : RemoveElement
+
+# fast build rule for target.
+RemoveElement/fast:
+	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/build
+.PHONY : RemoveElement/fast
+
+#=============================================================================
 # Target rules for targets named MedianofTwoSortedArrays
 
 # Build rule for target.
@@ -147,6 +160,19 @@ MedianofTwoSortedArrays: cmake_check_build_system
 MedianofTwoSortedArrays/fast:
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/build
 .PHONY : MedianofTwoSortedArrays/fast
+
+#=============================================================================
+# Target rules for targets named 4Sum
+
+# Build rule for target.
+4Sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4Sum
+.PHONY : 4Sum
+
+# fast build rule for target.
+4Sum/fast:
+	$(MAKE) -f Array\CMakeFiles\4Sum.dir\build.make Array/CMakeFiles/4Sum.dir/build
+.PHONY : 4Sum/fast
 
 #=============================================================================
 # Target rules for targets named ContainerWithMostWater
@@ -174,6 +200,58 @@ ContainerWithMostWater/fast:
 	$(MAKE) -f Array\CMakeFiles\3Sum.dir\build.make Array/CMakeFiles/3Sum.dir/build
 .PHONY : 3Sum/fast
 
+#=============================================================================
+# Target rules for targets named RemoveDuplicatesfromSortedArray
+
+# Build rule for target.
+RemoveDuplicatesfromSortedArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RemoveDuplicatesfromSortedArray
+.PHONY : RemoveDuplicatesfromSortedArray
+
+# fast build rule for target.
+RemoveDuplicatesfromSortedArray/fast:
+	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build
+.PHONY : RemoveDuplicatesfromSortedArray/fast
+
+#=============================================================================
+# Target rules for targets named RomantoInteger
+
+# Build rule for target.
+RomantoInteger: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RomantoInteger
+.PHONY : RomantoInteger
+
+# fast build rule for target.
+RomantoInteger/fast:
+	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/build
+.PHONY : RomantoInteger/fast
+
+#=============================================================================
+# Target rules for targets named LongestCommonPrefix
+
+# Build rule for target.
+LongestCommonPrefix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 LongestCommonPrefix
+.PHONY : LongestCommonPrefix
+
+# fast build rule for target.
+LongestCommonPrefix/fast:
+	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/build
+.PHONY : LongestCommonPrefix/fast
+
+#=============================================================================
+# Target rules for targets named ValidParentheses
+
+# Build rule for target.
+ValidParentheses: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ValidParentheses
+.PHONY : ValidParentheses
+
+# fast build rule for target.
+ValidParentheses/fast:
+	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/build
+.PHONY : ValidParentheses/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -184,9 +262,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 3SumClosest
 	@echo ... TwoSum
+	@echo ... RemoveElement
 	@echo ... MedianofTwoSortedArrays
+	@echo ... 4Sum
 	@echo ... ContainerWithMostWater
 	@echo ... 3Sum
+	@echo ... RemoveDuplicatesfromSortedArray
+	@echo ... RomantoInteger
+	@echo ... LongestCommonPrefix
+	@echo ... ValidParentheses
 .PHONY : help
 
 
