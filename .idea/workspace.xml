@@ -2,17 +2,22 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="LeetCode" targetName="SquaresofaSortedArray" />
       <config projectName="LeetCode" targetName="TwoSum" />
       <config projectName="LeetCode" targetName="ClimbingStairs" />
       <config projectName="LeetCode" targetName="ValidParentheses" />
+      <config projectName="LeetCode" targetName="SortArrayByParity" />
       <config projectName="LeetCode" targetName="3Sum" />
       <config projectName="LeetCode" targetName="RemoveDuplicatesfromSortedArray" />
+      <config projectName="LeetCode" targetName="ArrayPartitionI" />
       <config projectName="LeetCode" targetName="RomantoInteger" />
+      <config projectName="LeetCode" targetName="FlippinganImage" />
       <config projectName="LeetCode" targetName="4Sum" />
       <config projectName="LeetCode" targetName="ImplementstrStr" />
       <config projectName="LeetCode" targetName="LongestCommonPrefix" />
       <config projectName="LeetCode" targetName="RemoveElement" />
       <config projectName="LeetCode" targetName="3SumClosest" />
+      <config projectName="LeetCode" targetName="BestTimetoBuyandSellStock" />
       <config projectName="LeetCode" targetName="ContainerWithMostWater" />
       <config projectName="LeetCode" targetName="MaximumSubarray" />
       <config projectName="LeetCode" targetName="MedianofTwoSortedArrays" />
@@ -25,21 +30,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba249532-1a68-40af-b4ec-570a90b9fbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/53.MaximumSubarray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/70.ClimbingStairs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/28.ImplementstrStr.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/561.ArrayPartitionI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/832.FlippinganImage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/905.SortArrayByParity.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/977.SquaresofaSortedArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DynamicProgramming/121.BestTimetoBuyandSellStock.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/String/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Array/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DynamicProgramming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DynamicProgramming/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.ClimbingStairs">
+  <component name="RunManager" selected="CMake Application.ArrayPartitionI">
     <configuration name="3Sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="3Sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="3Sum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -120,12 +126,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayPartitionI" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ArrayPartitionI" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ArrayPartitionI">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestTimetoBuyandSellStock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="BestTimetoBuyandSellStock" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="BestTimetoBuyandSellStock">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClimbingStairs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ClimbingStairs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ClimbingStairs">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ContainerWithMostWater" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ContainerWithMostWater" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ContainerWithMostWater">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlippinganImage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="FlippinganImage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="FlippinganImage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -165,6 +186,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortArrayByParity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="SortArrayByParity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="SortArrayByParity">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquaresofaSortedArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="SquaresofaSortedArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="SquaresofaSortedArray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="TwoSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="TwoSum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -179,11 +210,16 @@
       <item itemvalue="CMake Application.3Sum" />
       <item itemvalue="CMake Application.3SumClosest" />
       <item itemvalue="CMake Application.4Sum" />
+      <item itemvalue="CMake Application.ArrayPartitionI" />
       <item itemvalue="CMake Application.ContainerWithMostWater" />
+      <item itemvalue="CMake Application.FlippinganImage" />
       <item itemvalue="CMake Application.MedianofTwoSortedArrays" />
       <item itemvalue="CMake Application.RemoveDuplicatesfromSortedArray" />
       <item itemvalue="CMake Application.RemoveElement" />
+      <item itemvalue="CMake Application.SortArrayByParity" />
+      <item itemvalue="CMake Application.SquaresofaSortedArray" />
       <item itemvalue="CMake Application.TwoSum" />
+      <item itemvalue="CMake Application.BestTimetoBuyandSellStock" />
       <item itemvalue="CMake Application.ClimbingStairs" />
       <item itemvalue="CMake Application.MaximumSubarray" />
       <item itemvalue="CMake Application.ImplementstrStr" />
@@ -220,7 +256,8 @@
       <workItem from="1564912369417" duration="111000" />
       <workItem from="1564912567487" duration="1196000" />
       <workItem from="1567744016375" duration="16411000" />
-      <workItem from="1567820723240" duration="12424000" />
+      <workItem from="1567820723240" duration="13848000" />
+      <workItem from="1568513137310" duration="8188000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode联系代码，language: C++">
       <created>1563332589932</created>
@@ -271,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567834012462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dp">
+      <created>1567848880946</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567848880946</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +357,8 @@
     <MESSAGE value="添加测试markdown文件及图片" />
     <MESSAGE value="修改图片位置" />
     <MESSAGE value="string" />
-    <option name="LAST_COMMIT_MESSAGE" value="string" />
+    <MESSAGE value="dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,6 +427,11 @@
           <url>file://$PROJECT_DIR$/DynamicProgramming/70.ClimbingStairs.cpp</url>
           <line>17</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/832.FlippinganImage.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

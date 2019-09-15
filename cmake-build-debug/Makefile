@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\JetBrains\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\CodeBook\LeetCode\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	D:\JetBrains\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\JetBrains\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\JetBrains\apps\CLion\ch-0\192.6603.37\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -136,6 +136,19 @@ TwoSum/fast:
 .PHONY : TwoSum/fast
 
 #=============================================================================
+# Target rules for targets named ArrayPartitionI
+
+# Build rule for target.
+ArrayPartitionI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ArrayPartitionI
+.PHONY : ArrayPartitionI
+
+# fast build rule for target.
+ArrayPartitionI/fast:
+	$(MAKE) -f Array\CMakeFiles\ArrayPartitionI.dir\build.make Array/CMakeFiles/ArrayPartitionI.dir/build
+.PHONY : ArrayPartitionI/fast
+
+#=============================================================================
 # Target rules for targets named RemoveElement
 
 # Build rule for target.
@@ -160,6 +173,19 @@ MedianofTwoSortedArrays: cmake_check_build_system
 MedianofTwoSortedArrays/fast:
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/build
 .PHONY : MedianofTwoSortedArrays/fast
+
+#=============================================================================
+# Target rules for targets named FlippinganImage
+
+# Build rule for target.
+FlippinganImage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FlippinganImage
+.PHONY : FlippinganImage
+
+# fast build rule for target.
+FlippinganImage/fast:
+	$(MAKE) -f Array\CMakeFiles\FlippinganImage.dir\build.make Array/CMakeFiles/FlippinganImage.dir/build
+.PHONY : FlippinganImage/fast
 
 #=============================================================================
 # Target rules for targets named 4Sum
@@ -212,6 +238,32 @@ RemoveDuplicatesfromSortedArray: cmake_check_build_system
 RemoveDuplicatesfromSortedArray/fast:
 	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build
 .PHONY : RemoveDuplicatesfromSortedArray/fast
+
+#=============================================================================
+# Target rules for targets named SortArrayByParity
+
+# Build rule for target.
+SortArrayByParity: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SortArrayByParity
+.PHONY : SortArrayByParity
+
+# fast build rule for target.
+SortArrayByParity/fast:
+	$(MAKE) -f Array\CMakeFiles\SortArrayByParity.dir\build.make Array/CMakeFiles/SortArrayByParity.dir/build
+.PHONY : SortArrayByParity/fast
+
+#=============================================================================
+# Target rules for targets named SquaresofaSortedArray
+
+# Build rule for target.
+SquaresofaSortedArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SquaresofaSortedArray
+.PHONY : SquaresofaSortedArray
+
+# fast build rule for target.
+SquaresofaSortedArray/fast:
+	$(MAKE) -f Array\CMakeFiles\SquaresofaSortedArray.dir\build.make Array/CMakeFiles/SquaresofaSortedArray.dir/build
+.PHONY : SquaresofaSortedArray/fast
 
 #=============================================================================
 # Target rules for targets named RomantoInteger
@@ -291,6 +343,19 @@ ClimbingStairs/fast:
 	$(MAKE) -f DynamicProgramming\CMakeFiles\ClimbingStairs.dir\build.make DynamicProgramming/CMakeFiles/ClimbingStairs.dir/build
 .PHONY : ClimbingStairs/fast
 
+#=============================================================================
+# Target rules for targets named BestTimetoBuyandSellStock
+
+# Build rule for target.
+BestTimetoBuyandSellStock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 BestTimetoBuyandSellStock
+.PHONY : BestTimetoBuyandSellStock
+
+# fast build rule for target.
+BestTimetoBuyandSellStock/fast:
+	$(MAKE) -f DynamicProgramming\CMakeFiles\BestTimetoBuyandSellStock.dir\build.make DynamicProgramming/CMakeFiles/BestTimetoBuyandSellStock.dir/build
+.PHONY : BestTimetoBuyandSellStock/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,18 +366,23 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 3SumClosest
 	@echo ... TwoSum
+	@echo ... ArrayPartitionI
 	@echo ... RemoveElement
 	@echo ... MedianofTwoSortedArrays
+	@echo ... FlippinganImage
 	@echo ... 4Sum
 	@echo ... ContainerWithMostWater
 	@echo ... 3Sum
 	@echo ... RemoveDuplicatesfromSortedArray
+	@echo ... SortArrayByParity
+	@echo ... SquaresofaSortedArray
 	@echo ... RomantoInteger
 	@echo ... LongestCommonPrefix
 	@echo ... ValidParentheses
 	@echo ... ImplementstrStr
 	@echo ... MaximumSubarray
 	@echo ... ClimbingStairs
+	@echo ... BestTimetoBuyandSellStock
 .PHONY : help
 
 
