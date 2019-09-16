@@ -69,7 +69,6 @@ CMAKE_BINARY_DIR = E:\CodeBook\LeetCode\cmake-build-debug
 # Convenience name for "all" pass in the directory.
 Array/all: Array/CMakeFiles/3SumClosest.dir/all
 Array/all: Array/CMakeFiles/TwoSum.dir/all
-Array/all: Array/CMakeFiles/ArrayPartitionI.dir/all
 Array/all: Array/CMakeFiles/RemoveElement.dir/all
 Array/all: Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 Array/all: Array/CMakeFiles/FlippinganImage.dir/all
@@ -79,13 +78,16 @@ Array/all: Array/CMakeFiles/3Sum.dir/all
 Array/all: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
 Array/all: Array/CMakeFiles/SortArrayByParity.dir/all
 Array/all: Array/CMakeFiles/SquaresofaSortedArray.dir/all
+Array/all: Array/CMakeFiles/ArrayPartition_I.dir/all
+Array/all: Array/CMakeFiles/HeightChecker.dir/all
+Array/all: Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/all
+Array/all: Array/CMakeFiles/SortArrayByParity_II.dir/all
 
 .PHONY : Array/all
 
 # Convenience name for "clean" pass in the directory.
 Array/clean: Array/CMakeFiles/3SumClosest.dir/clean
 Array/clean: Array/CMakeFiles/TwoSum.dir/clean
-Array/clean: Array/CMakeFiles/ArrayPartitionI.dir/clean
 Array/clean: Array/CMakeFiles/RemoveElement.dir/clean
 Array/clean: Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
 Array/clean: Array/CMakeFiles/FlippinganImage.dir/clean
@@ -95,6 +97,10 @@ Array/clean: Array/CMakeFiles/3Sum.dir/clean
 Array/clean: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
 Array/clean: Array/CMakeFiles/SortArrayByParity.dir/clean
 Array/clean: Array/CMakeFiles/SquaresofaSortedArray.dir/clean
+Array/clean: Array/CMakeFiles/ArrayPartition_I.dir/clean
+Array/clean: Array/CMakeFiles/HeightChecker.dir/clean
+Array/clean: Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/clean
+Array/clean: Array/CMakeFiles/SortArrayByParity_II.dir/clean
 
 .PHONY : Array/clean
 
@@ -147,7 +153,7 @@ clean: Array/CMakeFiles/3SumClosest.dir/clean
 Array/CMakeFiles/TwoSum.dir/all:
 	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/depend
 	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target TwoSum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target TwoSum"
 .PHONY : Array/CMakeFiles/TwoSum.dir/all
 
 # Include target in all.
@@ -178,50 +184,13 @@ clean: Array/CMakeFiles/TwoSum.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target Array/CMakeFiles/ArrayPartitionI.dir
-
-# All Build rule for target.
-Array/CMakeFiles/ArrayPartitionI.dir/all:
-	$(MAKE) -f Array\CMakeFiles\ArrayPartitionI.dir\build.make Array/CMakeFiles/ArrayPartitionI.dir/depend
-	$(MAKE) -f Array\CMakeFiles\ArrayPartitionI.dir\build.make Array/CMakeFiles/ArrayPartitionI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ArrayPartitionI"
-.PHONY : Array/CMakeFiles/ArrayPartitionI.dir/all
-
-# Include target in all.
-all: Array/CMakeFiles/ArrayPartitionI.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-Array/CMakeFiles/ArrayPartitionI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/ArrayPartitionI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
-.PHONY : Array/CMakeFiles/ArrayPartitionI.dir/rule
-
-# Convenience name for target.
-ArrayPartitionI: Array/CMakeFiles/ArrayPartitionI.dir/rule
-
-.PHONY : ArrayPartitionI
-
-# clean rule for target.
-Array/CMakeFiles/ArrayPartitionI.dir/clean:
-	$(MAKE) -f Array\CMakeFiles\ArrayPartitionI.dir\build.make Array/CMakeFiles/ArrayPartitionI.dir/clean
-.PHONY : Array/CMakeFiles/ArrayPartitionI.dir/clean
-
-# clean rule for target.
-clean: Array/CMakeFiles/ArrayPartitionI.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target Array/CMakeFiles/RemoveElement.dir
 
 # All Build rule for target.
 Array/CMakeFiles/RemoveElement.dir/all:
 	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/depend
 	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target RemoveElement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target RemoveElement"
 .PHONY : Array/CMakeFiles/RemoveElement.dir/all
 
 # Include target in all.
@@ -258,7 +227,7 @@ clean: Array/CMakeFiles/RemoveElement.dir/clean
 Array/CMakeFiles/MedianofTwoSortedArrays.dir/all:
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/depend
 	$(MAKE) -f Array\CMakeFiles\MedianofTwoSortedArrays.dir\build.make Array/CMakeFiles/MedianofTwoSortedArrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target MedianofTwoSortedArrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target MedianofTwoSortedArrays"
 .PHONY : Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 
 # Include target in all.
@@ -295,7 +264,7 @@ clean: Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
 Array/CMakeFiles/FlippinganImage.dir/all:
 	$(MAKE) -f Array\CMakeFiles\FlippinganImage.dir\build.make Array/CMakeFiles/FlippinganImage.dir/depend
 	$(MAKE) -f Array\CMakeFiles\FlippinganImage.dir\build.make Array/CMakeFiles/FlippinganImage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target FlippinganImage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target FlippinganImage"
 .PHONY : Array/CMakeFiles/FlippinganImage.dir/all
 
 # Include target in all.
@@ -443,7 +412,7 @@ clean: Array/CMakeFiles/3Sum.dir/clean
 Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all:
 	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/depend
 	$(MAKE) -f Array\CMakeFiles\RemoveDuplicatesfromSortedArray.dir\build.make Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target RemoveDuplicatesfromSortedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target RemoveDuplicatesfromSortedArray"
 .PHONY : Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/all
 
 # Include target in all.
@@ -480,7 +449,7 @@ clean: Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/clean
 Array/CMakeFiles/SortArrayByParity.dir/all:
 	$(MAKE) -f Array\CMakeFiles\SortArrayByParity.dir\build.make Array/CMakeFiles/SortArrayByParity.dir/depend
 	$(MAKE) -f Array\CMakeFiles\SortArrayByParity.dir\build.make Array/CMakeFiles/SortArrayByParity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target SortArrayByParity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target SortArrayByParity"
 .PHONY : Array/CMakeFiles/SortArrayByParity.dir/all
 
 # Include target in all.
@@ -517,7 +486,7 @@ clean: Array/CMakeFiles/SortArrayByParity.dir/clean
 Array/CMakeFiles/SquaresofaSortedArray.dir/all:
 	$(MAKE) -f Array\CMakeFiles\SquaresofaSortedArray.dir\build.make Array/CMakeFiles/SquaresofaSortedArray.dir/depend
 	$(MAKE) -f Array\CMakeFiles\SquaresofaSortedArray.dir\build.make Array/CMakeFiles/SquaresofaSortedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target SquaresofaSortedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target SquaresofaSortedArray"
 .PHONY : Array/CMakeFiles/SquaresofaSortedArray.dir/all
 
 # Include target in all.
@@ -544,6 +513,154 @@ Array/CMakeFiles/SquaresofaSortedArray.dir/clean:
 
 # clean rule for target.
 clean: Array/CMakeFiles/SquaresofaSortedArray.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/ArrayPartition_I.dir
+
+# All Build rule for target.
+Array/CMakeFiles/ArrayPartition_I.dir/all:
+	$(MAKE) -f Array\CMakeFiles\ArrayPartition_I.dir\build.make Array/CMakeFiles/ArrayPartition_I.dir/depend
+	$(MAKE) -f Array\CMakeFiles\ArrayPartition_I.dir\build.make Array/CMakeFiles/ArrayPartition_I.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ArrayPartition_I"
+.PHONY : Array/CMakeFiles/ArrayPartition_I.dir/all
+
+# Include target in all.
+all: Array/CMakeFiles/ArrayPartition_I.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/ArrayPartition_I.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/ArrayPartition_I.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/ArrayPartition_I.dir/rule
+
+# Convenience name for target.
+ArrayPartition_I: Array/CMakeFiles/ArrayPartition_I.dir/rule
+
+.PHONY : ArrayPartition_I
+
+# clean rule for target.
+Array/CMakeFiles/ArrayPartition_I.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\ArrayPartition_I.dir\build.make Array/CMakeFiles/ArrayPartition_I.dir/clean
+.PHONY : Array/CMakeFiles/ArrayPartition_I.dir/clean
+
+# clean rule for target.
+clean: Array/CMakeFiles/ArrayPartition_I.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/HeightChecker.dir
+
+# All Build rule for target.
+Array/CMakeFiles/HeightChecker.dir/all:
+	$(MAKE) -f Array\CMakeFiles\HeightChecker.dir\build.make Array/CMakeFiles/HeightChecker.dir/depend
+	$(MAKE) -f Array\CMakeFiles\HeightChecker.dir\build.make Array/CMakeFiles/HeightChecker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target HeightChecker"
+.PHONY : Array/CMakeFiles/HeightChecker.dir/all
+
+# Include target in all.
+all: Array/CMakeFiles/HeightChecker.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/HeightChecker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/HeightChecker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/HeightChecker.dir/rule
+
+# Convenience name for target.
+HeightChecker: Array/CMakeFiles/HeightChecker.dir/rule
+
+.PHONY : HeightChecker
+
+# clean rule for target.
+Array/CMakeFiles/HeightChecker.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\HeightChecker.dir\build.make Array/CMakeFiles/HeightChecker.dir/clean
+.PHONY : Array/CMakeFiles/HeightChecker.dir/clean
+
+# clean rule for target.
+clean: Array/CMakeFiles/HeightChecker.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir
+
+# All Build rule for target.
+Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/all:
+	$(MAKE) -f Array\CMakeFiles\FindWordsThatCanBeFormedbyCharacters.dir\build.make Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/depend
+	$(MAKE) -f Array\CMakeFiles\FindWordsThatCanBeFormedbyCharacters.dir\build.make Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target FindWordsThatCanBeFormedbyCharacters"
+.PHONY : Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/all
+
+# Include target in all.
+all: Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/rule
+
+# Convenience name for target.
+FindWordsThatCanBeFormedbyCharacters: Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/rule
+
+.PHONY : FindWordsThatCanBeFormedbyCharacters
+
+# clean rule for target.
+Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\FindWordsThatCanBeFormedbyCharacters.dir\build.make Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/clean
+.PHONY : Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/clean
+
+# clean rule for target.
+clean: Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/SortArrayByParity_II.dir
+
+# All Build rule for target.
+Array/CMakeFiles/SortArrayByParity_II.dir/all:
+	$(MAKE) -f Array\CMakeFiles\SortArrayByParity_II.dir\build.make Array/CMakeFiles/SortArrayByParity_II.dir/depend
+	$(MAKE) -f Array\CMakeFiles\SortArrayByParity_II.dir\build.make Array/CMakeFiles/SortArrayByParity_II.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target SortArrayByParity_II"
+.PHONY : Array/CMakeFiles/SortArrayByParity_II.dir/all
+
+# Include target in all.
+all: Array/CMakeFiles/SortArrayByParity_II.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/SortArrayByParity_II.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/SortArrayByParity_II.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/SortArrayByParity_II.dir/rule
+
+# Convenience name for target.
+SortArrayByParity_II: Array/CMakeFiles/SortArrayByParity_II.dir/rule
+
+.PHONY : SortArrayByParity_II
+
+# clean rule for target.
+Array/CMakeFiles/SortArrayByParity_II.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\SortArrayByParity_II.dir\build.make Array/CMakeFiles/SortArrayByParity_II.dir/clean
+.PHONY : Array/CMakeFiles/SortArrayByParity_II.dir/clean
+
+# clean rule for target.
+clean: Array/CMakeFiles/SortArrayByParity_II.dir/clean
 
 .PHONY : clean
 
@@ -578,7 +695,7 @@ String/preinstall:
 String/CMakeFiles/RomantoInteger.dir/all:
 	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/depend
 	$(MAKE) -f String\CMakeFiles\RomantoInteger.dir\build.make String/CMakeFiles/RomantoInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target RomantoInteger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target RomantoInteger"
 .PHONY : String/CMakeFiles/RomantoInteger.dir/all
 
 # Include target in all.
@@ -615,7 +732,7 @@ clean: String/CMakeFiles/RomantoInteger.dir/clean
 String/CMakeFiles/LongestCommonPrefix.dir/all:
 	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/depend
 	$(MAKE) -f String\CMakeFiles\LongestCommonPrefix.dir\build.make String/CMakeFiles/LongestCommonPrefix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target LongestCommonPrefix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target LongestCommonPrefix"
 .PHONY : String/CMakeFiles/LongestCommonPrefix.dir/all
 
 # Include target in all.
@@ -652,7 +769,7 @@ clean: String/CMakeFiles/LongestCommonPrefix.dir/clean
 String/CMakeFiles/ValidParentheses.dir/all:
 	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/depend
 	$(MAKE) -f String\CMakeFiles\ValidParentheses.dir\build.make String/CMakeFiles/ValidParentheses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target ValidParentheses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target ValidParentheses"
 .PHONY : String/CMakeFiles/ValidParentheses.dir/all
 
 # Include target in all.
@@ -689,7 +806,7 @@ clean: String/CMakeFiles/ValidParentheses.dir/clean
 String/CMakeFiles/ImplementstrStr.dir/all:
 	$(MAKE) -f String\CMakeFiles\ImplementstrStr.dir\build.make String/CMakeFiles/ImplementstrStr.dir/depend
 	$(MAKE) -f String\CMakeFiles\ImplementstrStr.dir\build.make String/CMakeFiles/ImplementstrStr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target ImplementstrStr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target ImplementstrStr"
 .PHONY : String/CMakeFiles/ImplementstrStr.dir/all
 
 # Include target in all.
@@ -748,7 +865,7 @@ DynamicProgramming/preinstall:
 DynamicProgramming/CMakeFiles/MaximumSubarray.dir/all:
 	$(MAKE) -f DynamicProgramming\CMakeFiles\MaximumSubarray.dir\build.make DynamicProgramming/CMakeFiles/MaximumSubarray.dir/depend
 	$(MAKE) -f DynamicProgramming\CMakeFiles\MaximumSubarray.dir\build.make DynamicProgramming/CMakeFiles/MaximumSubarray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target MaximumSubarray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target MaximumSubarray"
 .PHONY : DynamicProgramming/CMakeFiles/MaximumSubarray.dir/all
 
 # Include target in all.

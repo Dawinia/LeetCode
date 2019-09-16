@@ -136,19 +136,6 @@ TwoSum/fast:
 .PHONY : TwoSum/fast
 
 #=============================================================================
-# Target rules for targets named ArrayPartitionI
-
-# Build rule for target.
-ArrayPartitionI: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 ArrayPartitionI
-.PHONY : ArrayPartitionI
-
-# fast build rule for target.
-ArrayPartitionI/fast:
-	$(MAKE) -f Array\CMakeFiles\ArrayPartitionI.dir\build.make Array/CMakeFiles/ArrayPartitionI.dir/build
-.PHONY : ArrayPartitionI/fast
-
-#=============================================================================
 # Target rules for targets named RemoveElement
 
 # Build rule for target.
@@ -266,6 +253,58 @@ SquaresofaSortedArray/fast:
 .PHONY : SquaresofaSortedArray/fast
 
 #=============================================================================
+# Target rules for targets named ArrayPartition_I
+
+# Build rule for target.
+ArrayPartition_I: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ArrayPartition_I
+.PHONY : ArrayPartition_I
+
+# fast build rule for target.
+ArrayPartition_I/fast:
+	$(MAKE) -f Array\CMakeFiles\ArrayPartition_I.dir\build.make Array/CMakeFiles/ArrayPartition_I.dir/build
+.PHONY : ArrayPartition_I/fast
+
+#=============================================================================
+# Target rules for targets named HeightChecker
+
+# Build rule for target.
+HeightChecker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 HeightChecker
+.PHONY : HeightChecker
+
+# fast build rule for target.
+HeightChecker/fast:
+	$(MAKE) -f Array\CMakeFiles\HeightChecker.dir\build.make Array/CMakeFiles/HeightChecker.dir/build
+.PHONY : HeightChecker/fast
+
+#=============================================================================
+# Target rules for targets named FindWordsThatCanBeFormedbyCharacters
+
+# Build rule for target.
+FindWordsThatCanBeFormedbyCharacters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FindWordsThatCanBeFormedbyCharacters
+.PHONY : FindWordsThatCanBeFormedbyCharacters
+
+# fast build rule for target.
+FindWordsThatCanBeFormedbyCharacters/fast:
+	$(MAKE) -f Array\CMakeFiles\FindWordsThatCanBeFormedbyCharacters.dir\build.make Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/build
+.PHONY : FindWordsThatCanBeFormedbyCharacters/fast
+
+#=============================================================================
+# Target rules for targets named SortArrayByParity_II
+
+# Build rule for target.
+SortArrayByParity_II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SortArrayByParity_II
+.PHONY : SortArrayByParity_II
+
+# fast build rule for target.
+SortArrayByParity_II/fast:
+	$(MAKE) -f Array\CMakeFiles\SortArrayByParity_II.dir\build.make Array/CMakeFiles/SortArrayByParity_II.dir/build
+.PHONY : SortArrayByParity_II/fast
+
+#=============================================================================
 # Target rules for targets named RomantoInteger
 
 # Build rule for target.
@@ -366,7 +405,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 3SumClosest
 	@echo ... TwoSum
-	@echo ... ArrayPartitionI
 	@echo ... RemoveElement
 	@echo ... MedianofTwoSortedArrays
 	@echo ... FlippinganImage
@@ -376,6 +414,10 @@ help:
 	@echo ... RemoveDuplicatesfromSortedArray
 	@echo ... SortArrayByParity
 	@echo ... SquaresofaSortedArray
+	@echo ... ArrayPartition_I
+	@echo ... HeightChecker
+	@echo ... FindWordsThatCanBeFormedbyCharacters
+	@echo ... SortArrayByParity_II
 	@echo ... RomantoInteger
 	@echo ... LongestCommonPrefix
 	@echo ... ValidParentheses

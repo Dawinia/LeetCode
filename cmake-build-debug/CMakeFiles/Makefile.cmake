@@ -61,7 +61,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "Array/CMakeFiles/3SumClosest.dir/DependInfo.cmake"
   "Array/CMakeFiles/TwoSum.dir/DependInfo.cmake"
-  "Array/CMakeFiles/ArrayPartitionI.dir/DependInfo.cmake"
   "Array/CMakeFiles/RemoveElement.dir/DependInfo.cmake"
   "Array/CMakeFiles/MedianofTwoSortedArrays.dir/DependInfo.cmake"
   "Array/CMakeFiles/FlippinganImage.dir/DependInfo.cmake"
@@ -71,6 +70,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "Array/CMakeFiles/RemoveDuplicatesfromSortedArray.dir/DependInfo.cmake"
   "Array/CMakeFiles/SortArrayByParity.dir/DependInfo.cmake"
   "Array/CMakeFiles/SquaresofaSortedArray.dir/DependInfo.cmake"
+  "Array/CMakeFiles/ArrayPartition_I.dir/DependInfo.cmake"
+  "Array/CMakeFiles/HeightChecker.dir/DependInfo.cmake"
+  "Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/DependInfo.cmake"
+  "Array/CMakeFiles/SortArrayByParity_II.dir/DependInfo.cmake"
   "String/CMakeFiles/RomantoInteger.dir/DependInfo.cmake"
   "String/CMakeFiles/LongestCommonPrefix.dir/DependInfo.cmake"
   "String/CMakeFiles/ValidParentheses.dir/DependInfo.cmake"
