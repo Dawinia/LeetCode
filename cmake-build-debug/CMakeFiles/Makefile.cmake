@@ -74,6 +74,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "Array/CMakeFiles/HeightChecker.dir/DependInfo.cmake"
   "Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/DependInfo.cmake"
   "Array/CMakeFiles/SortArrayByParity_II.dir/DependInfo.cmake"
+  "Array/CMakeFiles/FibonacciNumber.dir/DependInfo.cmake"
+  "Array/CMakeFiles/SearchInsertPosition.dir/DependInfo.cmake"
   "String/CMakeFiles/RomantoInteger.dir/DependInfo.cmake"
   "String/CMakeFiles/LongestCommonPrefix.dir/DependInfo.cmake"
   "String/CMakeFiles/ValidParentheses.dir/DependInfo.cmake"

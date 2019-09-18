@@ -305,6 +305,32 @@ SortArrayByParity_II/fast:
 .PHONY : SortArrayByParity_II/fast
 
 #=============================================================================
+# Target rules for targets named FibonacciNumber
+
+# Build rule for target.
+FibonacciNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FibonacciNumber
+.PHONY : FibonacciNumber
+
+# fast build rule for target.
+FibonacciNumber/fast:
+	$(MAKE) -f Array\CMakeFiles\FibonacciNumber.dir\build.make Array/CMakeFiles/FibonacciNumber.dir/build
+.PHONY : FibonacciNumber/fast
+
+#=============================================================================
+# Target rules for targets named SearchInsertPosition
+
+# Build rule for target.
+SearchInsertPosition: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SearchInsertPosition
+.PHONY : SearchInsertPosition
+
+# fast build rule for target.
+SearchInsertPosition/fast:
+	$(MAKE) -f Array\CMakeFiles\SearchInsertPosition.dir\build.make Array/CMakeFiles/SearchInsertPosition.dir/build
+.PHONY : SearchInsertPosition/fast
+
+#=============================================================================
 # Target rules for targets named RomantoInteger
 
 # Build rule for target.
@@ -418,6 +444,8 @@ help:
 	@echo ... HeightChecker
 	@echo ... FindWordsThatCanBeFormedbyCharacters
 	@echo ... SortArrayByParity_II
+	@echo ... FibonacciNumber
+	@echo ... SearchInsertPosition
 	@echo ... RomantoInteger
 	@echo ... LongestCommonPrefix
 	@echo ... ValidParentheses

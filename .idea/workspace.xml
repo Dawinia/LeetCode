@@ -3,11 +3,12 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="LeetCode" targetName="SquaresofaSortedArray" />
-      <config projectName="LeetCode" targetName="TwoSum" />
       <config projectName="LeetCode" targetName="SortArrayByParity_II" />
+      <config projectName="LeetCode" targetName="TwoSum" />
       <config projectName="LeetCode" targetName="ClimbingStairs" />
       <config projectName="LeetCode" targetName="ValidParentheses" />
       <config projectName="LeetCode" targetName="SortArrayByParity" />
+      <config projectName="LeetCode" targetName="SearchInsertPosition" />
       <config projectName="LeetCode" targetName="3Sum" />
       <config projectName="LeetCode" targetName="RemoveDuplicatesfromSortedArray" />
       <config projectName="LeetCode" targetName="RomantoInteger" />
@@ -16,12 +17,13 @@
       <config projectName="LeetCode" targetName="ImplementstrStr" />
       <config projectName="LeetCode" targetName="LongestCommonPrefix" />
       <config projectName="LeetCode" targetName="HeightChecker" />
+      <config projectName="LeetCode" targetName="FibonacciNumber" />
       <config projectName="LeetCode" targetName="RemoveElement" />
       <config projectName="LeetCode" targetName="3SumClosest" />
       <config projectName="LeetCode" targetName="BestTimetoBuyandSellStock" />
       <config projectName="LeetCode" targetName="FindWordsThatCanBeFormedbyCharacters" />
-      <config projectName="LeetCode" targetName="ContainerWithMostWater" />
       <config projectName="LeetCode" targetName="ArrayPartition_I" />
+      <config projectName="LeetCode" targetName="ContainerWithMostWater" />
       <config projectName="LeetCode" targetName="MaximumSubarray" />
       <config projectName="LeetCode" targetName="MedianofTwoSortedArrays" />
     </generated>
@@ -33,11 +35,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba249532-1a68-40af-b4ec-570a90b9fbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/1051.HeightChecker.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1160.FindWordsThatCanBeFormedbyCharacters.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/922.SortArrayByParity_II.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/35.SearchInsertPosition.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/509.FibonacciNumber.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/561.ArrayPartitionI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/561.ArrayPartition_I.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Array/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -109,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.SortArrayByParity_II">
+  <component name="RunManager" selected="CMake Application.SearchInsertPosition">
     <configuration name="3Sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="3Sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="3Sum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -141,6 +141,11 @@
       </method>
     </configuration>
     <configuration name="ContainerWithMostWater" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="ContainerWithMostWater" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="ContainerWithMostWater">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="FibonacciNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="FibonacciNumber">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -195,6 +200,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInsertPosition" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="SearchInsertPosition" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="SearchInsertPosition">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortArrayByParity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="SortArrayByParity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="SortArrayByParity">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -226,12 +236,14 @@
       <item itemvalue="CMake Application.4Sum" />
       <item itemvalue="CMake Application.ArrayPartition_I" />
       <item itemvalue="CMake Application.ContainerWithMostWater" />
+      <item itemvalue="CMake Application.FibonacciNumber" />
       <item itemvalue="CMake Application.FindWordsThatCanBeFormedbyCharacters" />
       <item itemvalue="CMake Application.FlippinganImage" />
       <item itemvalue="CMake Application.HeightChecker" />
       <item itemvalue="CMake Application.MedianofTwoSortedArrays" />
       <item itemvalue="CMake Application.RemoveDuplicatesfromSortedArray" />
       <item itemvalue="CMake Application.RemoveElement" />
+      <item itemvalue="CMake Application.SearchInsertPosition" />
       <item itemvalue="CMake Application.SortArrayByParity" />
       <item itemvalue="CMake Application.SortArrayByParity_II" />
       <item itemvalue="CMake Application.SquaresofaSortedArray" />
@@ -275,7 +287,8 @@
       <workItem from="1567744016375" duration="16411000" />
       <workItem from="1567820723240" duration="13848000" />
       <workItem from="1568513137310" duration="8282000" />
-      <workItem from="1568599586573" duration="8653000" />
+      <workItem from="1568599586573" duration="8729000" />
+      <workItem from="1568773313214" duration="7454000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode联系代码，language: C++">
       <created>1563332589932</created>
@@ -340,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568541040528</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="array 19-9-16">
+      <created>1568614235974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568614235974</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +404,9 @@
     <MESSAGE value="string" />
     <MESSAGE value="dp" />
     <MESSAGE value="array 19-9-15" />
-    <option name="LAST_COMMIT_MESSAGE" value="array 19-9-15" />
+    <MESSAGE value="array 19-9-16" />
+    <MESSAGE value="array 19-9-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="array 19-9-18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,6 +490,21 @@
           <url>file://$PROJECT_DIR$/Array/922.SortArrayByParity_II.cpp</url>
           <line>18</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/509.FibonacciNumber.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/509.FibonacciNumber.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/35.SearchInsertPosition.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
