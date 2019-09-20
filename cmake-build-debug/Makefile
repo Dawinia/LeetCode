@@ -318,6 +318,19 @@ FibonacciNumber/fast:
 .PHONY : FibonacciNumber/fast
 
 #=============================================================================
+# Target rules for targets named MergeSortedArray
+
+# Build rule for target.
+MergeSortedArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 MergeSortedArray
+.PHONY : MergeSortedArray
+
+# fast build rule for target.
+MergeSortedArray/fast:
+	$(MAKE) -f Array\CMakeFiles\MergeSortedArray.dir\build.make Array/CMakeFiles/MergeSortedArray.dir/build
+.PHONY : MergeSortedArray/fast
+
+#=============================================================================
 # Target rules for targets named SearchInsertPosition
 
 # Build rule for target.
@@ -329,6 +342,32 @@ SearchInsertPosition: cmake_check_build_system
 SearchInsertPosition/fast:
 	$(MAKE) -f Array\CMakeFiles\SearchInsertPosition.dir\build.make Array/CMakeFiles/SearchInsertPosition.dir/build
 .PHONY : SearchInsertPosition/fast
+
+#=============================================================================
+# Target rules for targets named RelativeSortArray
+
+# Build rule for target.
+RelativeSortArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 RelativeSortArray
+.PHONY : RelativeSortArray
+
+# fast build rule for target.
+RelativeSortArray/fast:
+	$(MAKE) -f Array\CMakeFiles\RelativeSortArray.dir\build.make Array/CMakeFiles/RelativeSortArray.dir/build
+.PHONY : RelativeSortArray/fast
+
+#=============================================================================
+# Target rules for targets named PlusOne
+
+# Build rule for target.
+PlusOne: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 PlusOne
+.PHONY : PlusOne
+
+# fast build rule for target.
+PlusOne/fast:
+	$(MAKE) -f Array\CMakeFiles\PlusOne.dir\build.make Array/CMakeFiles/PlusOne.dir/build
+.PHONY : PlusOne/fast
 
 #=============================================================================
 # Target rules for targets named RomantoInteger
@@ -445,7 +484,10 @@ help:
 	@echo ... FindWordsThatCanBeFormedbyCharacters
 	@echo ... SortArrayByParity_II
 	@echo ... FibonacciNumber
+	@echo ... MergeSortedArray
 	@echo ... SearchInsertPosition
+	@echo ... RelativeSortArray
+	@echo ... PlusOne
 	@echo ... RomantoInteger
 	@echo ... LongestCommonPrefix
 	@echo ... ValidParentheses

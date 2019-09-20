@@ -20,3 +20,6 @@ add_executable(FindWordsThatCanBeFormedbyCharacters 1160.FindWordsThatCanBeForme
 add_executable(SortArrayByParity_II 922.SortArrayByParity_II.cpp)
 add_executable(FibonacciNumber 509.FibonacciNumber.cpp)
 add_executable(SearchInsertPosition 35.SearchInsertPosition.cpp)
+add_executable(RelativeSortArray 1122.RelativeSortArray.cpp)
+add_executable(PlusOne 66.PlusOne.cpp)
+add_executable(MergeSortedArray 88.MergeSortedArray.cpp)
