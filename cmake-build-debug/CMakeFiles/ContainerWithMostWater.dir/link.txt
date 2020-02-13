@@ -1,3 +1,0 @@
-D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\ContainerWithMostWater.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\ContainerWithMostWater.dir/objects.a @CMakeFiles\ContainerWithMostWater.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ContainerWithMostWater.dir/objects.a -Wl,--no-whole-archive  -o ContainerWithMostWater.exe -Wl,--out-implib,libContainerWithMostWater.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ContainerWithMostWater.dir\linklibs.rsp

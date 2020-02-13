@@ -1,3 +1,0 @@
-D:\JetBrains\apps\CLion\ch-0\191.7479.33\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\Sum.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Sum.dir/objects.a @CMakeFiles\Sum.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Sum.dir/objects.a -Wl,--no-whole-archive  -o Sum.exe -Wl,--out-implib,libSum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Sum.dir\linklibs.rsp

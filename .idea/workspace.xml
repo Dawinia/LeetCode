@@ -9,16 +9,19 @@
       <config projectName="LeetCode" targetName="3Sum" />
       <config projectName="LeetCode" targetName="RemoveDuplicatesfromSortedArray" />
       <config projectName="LeetCode" targetName="RomantoInteger" />
+      <config projectName="LeetCode" targetName="FindNumberswithEvenNumberofDigits" />
       <config projectName="LeetCode" targetName="RelativeSortArray" />
       <config projectName="LeetCode" targetName="ImplementstrStr" />
       <config projectName="LeetCode" targetName="HeightChecker" />
-      <config projectName="LeetCode" targetName="RemoveElement" />
       <config projectName="LeetCode" targetName="3SumClosest" />
+      <config projectName="LeetCode" targetName="RemoveElement" />
       <config projectName="LeetCode" targetName="BestTimetoBuyandSellStock" />
       <config projectName="LeetCode" targetName="ArrayPartition_I" />
       <config projectName="LeetCode" targetName="ContainerWithMostWater" />
       <config projectName="LeetCode" targetName="PlusOne" />
       <config projectName="LeetCode" targetName="TwoSum" />
+      <config projectName="LeetCode" targetName="PascalsTriangle_II" />
+      <config projectName="LeetCode" targetName="PascalsTriangle" />
       <config projectName="LeetCode" targetName="ValidParentheses" />
       <config projectName="LeetCode" targetName="SortArrayByParity" />
       <config projectName="LeetCode" targetName="FlippinganImage" />
@@ -38,19 +41,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba249532-1a68-40af-b4ec-570a90b9fbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/1122.RelativeSortArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/66.PlusOne.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/88.MergeSortedArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/118.Pascal'sTriangle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/119.Pascal'sTriangleII.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/1295.FindNumberswithEvenNumberofDigits.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Array/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +88,11 @@
   </component>
   <component name="ProjectId" id="1OjAHSbGa0RB9xwYZudmh5MtF5a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -93,7 +104,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.SingleFileExecutionConfigurable" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,19 +112,7 @@
       <recent name="E:\CodeBook\LeetCode" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="CMake Application.MergeSortedArray">
+  <component name="RunManager" selected="CMake Application.PascalsTriangle_II">
     <configuration name="3Sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="3Sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="3Sum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -154,6 +153,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindNumberswithEvenNumberofDigits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="FindNumberswithEvenNumberofDigits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="FindNumberswithEvenNumberofDigits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindWordsThatCanBeFormedbyCharacters" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="FindWordsThatCanBeFormedbyCharacters" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="FindWordsThatCanBeFormedbyCharacters">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -190,6 +194,16 @@
       </method>
     </configuration>
     <configuration name="MergeSortedArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="MergeSortedArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="MergeSortedArray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalsTriangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="PascalsTriangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="PascalsTriangle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalsTriangle_II" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="PascalsTriangle_II" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="PascalsTriangle_II">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -256,11 +270,14 @@
       <item itemvalue="CMake Application.ArrayPartition_I" />
       <item itemvalue="CMake Application.ContainerWithMostWater" />
       <item itemvalue="CMake Application.FibonacciNumber" />
+      <item itemvalue="CMake Application.FindNumberswithEvenNumberofDigits" />
       <item itemvalue="CMake Application.FindWordsThatCanBeFormedbyCharacters" />
       <item itemvalue="CMake Application.FlippinganImage" />
       <item itemvalue="CMake Application.HeightChecker" />
       <item itemvalue="CMake Application.MedianofTwoSortedArrays" />
       <item itemvalue="CMake Application.MergeSortedArray" />
+      <item itemvalue="CMake Application.PascalsTriangle" />
+      <item itemvalue="CMake Application.PascalsTriangle_II" />
       <item itemvalue="CMake Application.PlusOne" />
       <item itemvalue="CMake Application.RelativeSortArray" />
       <item itemvalue="CMake Application.RemoveDuplicatesfromSortedArray" />
@@ -278,6 +295,18 @@
       <item itemvalue="CMake Application.RomantoInteger" />
       <item itemvalue="CMake Application.ValidParentheses" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -311,7 +340,10 @@
       <workItem from="1568513137310" duration="8282000" />
       <workItem from="1568599586573" duration="8729000" />
       <workItem from="1568773313214" duration="8103000" />
-      <workItem from="1568944987326" duration="6274000" />
+      <workItem from="1568944987326" duration="6513000" />
+      <workItem from="1569547971216" duration="108000" />
+      <workItem from="1578643189450" duration="9084000" />
+      <workItem from="1581585341912" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode联系代码，language: C++">
       <created>1563332589932</created>
@@ -390,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568786680245</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="array 19-9-20">
+      <created>1568958187388</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568958187388</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +475,54 @@
     <MESSAGE value="array 19-9-15" />
     <MESSAGE value="array 19-9-16" />
     <MESSAGE value="array 19-9-18" />
-    <option name="LAST_COMMIT_MESSAGE" value="array 19-9-18" />
+    <MESSAGE value="array 19-9-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="array 19-9-20" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1581585572265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581585572265" />
+    <state width="1493" height="369" key="GridCell.Tab.0.bottom" timestamp="1578668723967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
+    <state width="1493" height="369" key="GridCell.Tab.0.center" timestamp="1578668723967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
+    <state width="1493" height="369" key="GridCell.Tab.0.left" timestamp="1578668723967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
+    <state width="1493" height="369" key="GridCell.Tab.0.right" timestamp="1578668723967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
+    <state width="1493" height="369" key="GridCell.Tab.1.bottom" timestamp="1578668723968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578668723968" />
+    <state width="1493" height="369" key="GridCell.Tab.1.center" timestamp="1578668723967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
+    <state width="1493" height="369" key="GridCell.Tab.1.left" timestamp="1578668723967">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
+    <state width="1493" height="369" key="GridCell.Tab.1.right" timestamp="1578668723968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="369" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578668723968" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1581585424523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581585424523" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581585390460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581585390460" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -543,10 +629,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Array/88.MergeSortedArray.cpp</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/118.Pascal'sTriangle.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/119.Pascal'sTriangleII.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="ans" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
