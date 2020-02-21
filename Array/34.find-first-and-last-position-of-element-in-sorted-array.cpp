@@ -1,4 +1,8 @@
 /*
+ * @Description: 
+ * @LastEditTime: 2020-02-19 18:46:30
+ */
+/*
  * @lc app=leetcode id=34 lang=cpp
  *
  * [34] Find First and Last Position of Element in Sorted Array
@@ -35,11 +39,49 @@
  */
 
 // @lc code=start
+#include <vector>
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        
+        int n = nums.size();
+        if(n == 0)
+            return {-1, -1};
+        int l = 0, h = n;
+        int mid;
+        vector<int> ans;
+        while(l < h)
+        {
+            mid = l + (h - l) / 2;
+            if(nums[mid] < target)
+            {
+                l = mid + 1;
+            }
+            else
+            {
+                h = mid;
+            }
+        }
+        if(l == n || nums[l] != target)
+            return {-1, -1};
+        ans.emplace_back(l);
+        h = n;
+        while(l < h)
+        {
+            mid = l + (h - l) / 2;
+            if(nums[mid] > target)
+            {
+                h = mid;
+            }
+            else
+            {
+                l = mid + 1;
+            }
+        }
+        ans.emplace_back(h - 1);
+        return ans;
     }
 };
-// @lc code=end
 
+// @lc code=end

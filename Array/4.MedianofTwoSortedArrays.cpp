@@ -17,7 +17,7 @@ class Solution
         double half = (nums1.size() + nums2.size()) / 2.0;
         if(nums1[nums1.size() - 1] < nums2[0])
         {
-//            int index = half > nums1.size() ? ceil(half) - nums1.size() : ceil(half) - 1;
+//            int min_index = half > nums1.size() ? ceil(half) - nums1.size() : ceil(half) - 1;
         }
         return half;
     }

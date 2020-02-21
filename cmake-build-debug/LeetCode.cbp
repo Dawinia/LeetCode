@@ -121,6 +121,48 @@
 					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="combination-sum-ii">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/combination-sum-ii.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 combination-sum-ii"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="combination-sum-ii/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/combination-sum-ii.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 combination-sum-ii/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="RemoveElement">
 				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/RemoveElement.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
@@ -835,6 +877,48 @@
 					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="combination-sum">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/combination-sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 combination-sum"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="combination-sum/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/combination-sum.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 combination-sum/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="RelativeSortArray">
 				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/RelativeSortArray.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
@@ -872,6 +956,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 RelativeSortArray/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="search-in-rotated-sorted-array">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/search-in-rotated-sorted-array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 search-in-rotated-sorted-array"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="search-in-rotated-sorted-array/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/search-in-rotated-sorted-array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 search-in-rotated-sorted-array/fast"/>
 					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
@@ -998,6 +1124,132 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 PascalsTriangle_II/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="next-permutation">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/next-permutation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 next-permutation"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="next-permutation/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/next-permutation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 next-permutation/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="find-first-and-last-position-of-element-in-sorted-array">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/find-first-and-last-position-of-element-in-sorted-array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 find-first-and-last-position-of-element-in-sorted-array"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="find-first-and-last-position-of-element-in-sorted-array/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/find-first-and-last-position-of-element-in-sorted-array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 find-first-and-last-position-of-element-in-sorted-array/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first-missing-positive">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/first-missing-positive.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 first-missing-positive"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="first-missing-positive/fast">
+				<Option output="E:/CodeBook/LeetCode/cmake-build-debug/Array/first-missing-positive.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CodeBook/LeetCode/cmake-build-debug/Array"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 first-missing-positive/fast"/>
 					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CodeBook/LeetCode/cmake-build-debug/Array/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1337,11 +1589,29 @@
 		<Unit filename="E:/CodeBook/LeetCode/Array/27.RemoveElement.cpp">
 			<Option target="RemoveElement"/>
 		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/Array/31.next-permutation.cpp">
+			<Option target="next-permutation"/>
+		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/Array/33.search-in-rotated-sorted-array.cpp">
+			<Option target="search-in-rotated-sorted-array"/>
+		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/Array/34.find-first-and-last-position-of-element-in-sorted-array.cpp">
+			<Option target="find-first-and-last-position-of-element-in-sorted-array"/>
+		</Unit>
 		<Unit filename="E:/CodeBook/LeetCode/Array/35.SearchInsertPosition.cpp">
 			<Option target="SearchInsertPosition"/>
 		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/Array/39.combination-sum.cpp">
+			<Option target="combination-sum"/>
+		</Unit>
 		<Unit filename="E:/CodeBook/LeetCode/Array/4.MedianofTwoSortedArrays.cpp">
 			<Option target="MedianofTwoSortedArrays"/>
+		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/Array/40.combination-sum-ii.cpp">
+			<Option target="combination-sum-ii"/>
+		</Unit>
+		<Unit filename="E:/CodeBook/LeetCode/Array/41.first-missing-positive.cpp">
+			<Option target="first-missing-positive"/>
 		</Unit>
 		<Unit filename="E:/CodeBook/LeetCode/Array/509.FibonacciNumber.cpp">
 			<Option target="FibonacciNumber"/>

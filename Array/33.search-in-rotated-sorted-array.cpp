@@ -1,6 +1,6 @@
 /*
  * @Description: 
- * @LastEditTime : 2020-02-14 18:41:44
+ * @LastEditTime : 2020-02-14 19:15:53
  */
 /*
  * @lc app=leetcode id=33 lang=cpp
@@ -23,7 +23,7 @@
  * (i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
  * 
  * You are given a target value to search. If found in the array return its
- * index, otherwise return -1.
+ * min_index, otherwise return -1.
  * 
  * You may assume no duplicate exists in the array.
  * 
@@ -43,6 +43,7 @@
  * Output: -1
  * 
  */
+#include <iostream>
 #include <vector>
 using namespace std;
 // @lc code=start
@@ -51,16 +52,20 @@ class Solution
 public:
     int search(vector<int> &nums, int target)
     {
-        int h = nums.size() - 1;
+        int size = nums.size();
+        int h = size - 1;
         int l = 0, mid = h / 2;
         int ll;
         while (l < h)
         {
-            if(nums[l] < nums[h])
+            if (nums[l] < nums[h])
+            {
                 ll = l;
+                break;
+            }
             else
             {
-                if(nums[mid] > nums[l])
+                if (nums[mid] > nums[h])
                     l = mid + 1;
                 else
                     h = mid;
@@ -68,7 +73,20 @@ public:
             mid = (l + h) / 2;
         }
         ll = l;
-        return ll;
+        l = 0;
+        h = size - 1;
+        while (l <= h)
+        {
+            mid = (l + h) / 2;
+            int rmid = (mid + ll) % size;
+            if (target == nums[rmid])
+                return rmid;
+            else if (target < nums[rmid])
+                h = mid - 1;
+            else
+                l = mid + 1;
+        }
+        return -1;
     }
 };
 // @lc code=end

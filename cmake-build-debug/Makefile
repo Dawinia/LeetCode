@@ -136,6 +136,19 @@ TwoSum/fast:
 .PHONY : TwoSum/fast
 
 #=============================================================================
+# Target rules for targets named combination-sum-ii
+
+# Build rule for target.
+combination-sum-ii: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 combination-sum-ii
+.PHONY : combination-sum-ii
+
+# fast build rule for target.
+combination-sum-ii/fast:
+	$(MAKE) -f Array\CMakeFiles\combination-sum-ii.dir\build.make Array/CMakeFiles/combination-sum-ii.dir/build
+.PHONY : combination-sum-ii/fast
+
+#=============================================================================
 # Target rules for targets named RemoveElement
 
 # Build rule for target.
@@ -357,6 +370,19 @@ SearchInsertPosition/fast:
 .PHONY : SearchInsertPosition/fast
 
 #=============================================================================
+# Target rules for targets named combination-sum
+
+# Build rule for target.
+combination-sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 combination-sum
+.PHONY : combination-sum
+
+# fast build rule for target.
+combination-sum/fast:
+	$(MAKE) -f Array\CMakeFiles\combination-sum.dir\build.make Array/CMakeFiles/combination-sum.dir/build
+.PHONY : combination-sum/fast
+
+#=============================================================================
 # Target rules for targets named RelativeSortArray
 
 # Build rule for target.
@@ -368,6 +394,19 @@ RelativeSortArray: cmake_check_build_system
 RelativeSortArray/fast:
 	$(MAKE) -f Array\CMakeFiles\RelativeSortArray.dir\build.make Array/CMakeFiles/RelativeSortArray.dir/build
 .PHONY : RelativeSortArray/fast
+
+#=============================================================================
+# Target rules for targets named search-in-rotated-sorted-array
+
+# Build rule for target.
+search-in-rotated-sorted-array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 search-in-rotated-sorted-array
+.PHONY : search-in-rotated-sorted-array
+
+# fast build rule for target.
+search-in-rotated-sorted-array/fast:
+	$(MAKE) -f Array\CMakeFiles\search-in-rotated-sorted-array.dir\build.make Array/CMakeFiles/search-in-rotated-sorted-array.dir/build
+.PHONY : search-in-rotated-sorted-array/fast
 
 #=============================================================================
 # Target rules for targets named PlusOne
@@ -407,6 +446,45 @@ PascalsTriangle_II: cmake_check_build_system
 PascalsTriangle_II/fast:
 	$(MAKE) -f Array\CMakeFiles\PascalsTriangle_II.dir\build.make Array/CMakeFiles/PascalsTriangle_II.dir/build
 .PHONY : PascalsTriangle_II/fast
+
+#=============================================================================
+# Target rules for targets named next-permutation
+
+# Build rule for target.
+next-permutation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 next-permutation
+.PHONY : next-permutation
+
+# fast build rule for target.
+next-permutation/fast:
+	$(MAKE) -f Array\CMakeFiles\next-permutation.dir\build.make Array/CMakeFiles/next-permutation.dir/build
+.PHONY : next-permutation/fast
+
+#=============================================================================
+# Target rules for targets named find-first-and-last-position-of-element-in-sorted-array
+
+# Build rule for target.
+find-first-and-last-position-of-element-in-sorted-array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 find-first-and-last-position-of-element-in-sorted-array
+.PHONY : find-first-and-last-position-of-element-in-sorted-array
+
+# fast build rule for target.
+find-first-and-last-position-of-element-in-sorted-array/fast:
+	$(MAKE) -f Array\CMakeFiles\find-first-and-last-position-of-element-in-sorted-array.dir\build.make Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/build
+.PHONY : find-first-and-last-position-of-element-in-sorted-array/fast
+
+#=============================================================================
+# Target rules for targets named first-missing-positive
+
+# Build rule for target.
+first-missing-positive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 first-missing-positive
+.PHONY : first-missing-positive
+
+# fast build rule for target.
+first-missing-positive/fast:
+	$(MAKE) -f Array\CMakeFiles\first-missing-positive.dir\build.make Array/CMakeFiles/first-missing-positive.dir/build
+.PHONY : first-missing-positive/fast
 
 #=============================================================================
 # Target rules for targets named RomantoInteger
@@ -509,6 +587,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 3SumClosest
 	@echo ... TwoSum
+	@echo ... combination-sum-ii
 	@echo ... RemoveElement
 	@echo ... MedianofTwoSortedArrays
 	@echo ... 4Sum
@@ -526,10 +605,15 @@ help:
 	@echo ... FibonacciNumber
 	@echo ... MergeSortedArray
 	@echo ... SearchInsertPosition
+	@echo ... combination-sum
 	@echo ... RelativeSortArray
+	@echo ... search-in-rotated-sorted-array
 	@echo ... PlusOne
 	@echo ... PascalsTriangle
 	@echo ... PascalsTriangle_II
+	@echo ... next-permutation
+	@echo ... find-first-and-last-position-of-element-in-sorted-array
+	@echo ... first-missing-positive
 	@echo ... RomantoInteger
 	@echo ... LongestCommonPrefix
 	@echo ... ValidParentheses

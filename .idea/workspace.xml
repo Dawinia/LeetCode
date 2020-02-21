@@ -2,36 +2,42 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LeetCode" targetName="SquaresofaSortedArray" />
-      <config projectName="LeetCode" targetName="SortArrayByParity_II" />
-      <config projectName="LeetCode" targetName="ClimbingStairs" />
-      <config projectName="LeetCode" targetName="SearchInsertPosition" />
-      <config projectName="LeetCode" targetName="3Sum" />
-      <config projectName="LeetCode" targetName="RemoveDuplicatesfromSortedArray" />
-      <config projectName="LeetCode" targetName="RomantoInteger" />
-      <config projectName="LeetCode" targetName="FindNumberswithEvenNumberofDigits" />
-      <config projectName="LeetCode" targetName="RelativeSortArray" />
-      <config projectName="LeetCode" targetName="ImplementstrStr" />
-      <config projectName="LeetCode" targetName="HeightChecker" />
       <config projectName="LeetCode" targetName="3SumClosest" />
+      <config projectName="LeetCode" targetName="FindNumberswithEvenNumberofDigits" />
+      <config projectName="LeetCode" targetName="HeightChecker" />
+      <config projectName="LeetCode" targetName="ClimbingStairs" />
+      <config projectName="LeetCode" targetName="SortArrayByParity" />
+      <config projectName="LeetCode" targetName="combination-sum" />
       <config projectName="LeetCode" targetName="RemoveElement" />
-      <config projectName="LeetCode" targetName="BestTimetoBuyandSellStock" />
-      <config projectName="LeetCode" targetName="ArrayPartition_I" />
+      <config projectName="LeetCode" targetName="first-missing-positive" />
       <config projectName="LeetCode" targetName="ContainerWithMostWater" />
+      <config projectName="LeetCode" targetName="ImplementstrStr" />
+      <config projectName="LeetCode" targetName="RemoveDuplicatesfromSortedArray" />
       <config projectName="LeetCode" targetName="PlusOne" />
-      <config projectName="LeetCode" targetName="TwoSum" />
+      <config projectName="LeetCode" targetName="LongestCommonPrefix" />
+      <config projectName="LeetCode" targetName="search-in-rotated-sorted-array" />
+      <config projectName="LeetCode" targetName="FlippinganImage" />
+      <config projectName="LeetCode" targetName="find-first-and-last-position-of-element-in-sorted-array" />
+      <config projectName="LeetCode" targetName="MaximumSubarray" />
+      <config projectName="LeetCode" targetName="BestTimetoBuyandSellStock" />
       <config projectName="LeetCode" targetName="PascalsTriangle_II" />
+      <config projectName="LeetCode" targetName="RelativeSortArray" />
+      <config projectName="LeetCode" targetName="SquaresofaSortedArray" />
+      <config projectName="LeetCode" targetName="combination-sum-ii" />
+      <config projectName="LeetCode" targetName="MedianofTwoSortedArrays" />
+      <config projectName="LeetCode" targetName="3Sum" />
+      <config projectName="LeetCode" targetName="ArrayPartition_I" />
+      <config projectName="LeetCode" targetName="4Sum" />
       <config projectName="LeetCode" targetName="PascalsTriangle" />
       <config projectName="LeetCode" targetName="ValidParentheses" />
-      <config projectName="LeetCode" targetName="SortArrayByParity" />
-      <config projectName="LeetCode" targetName="FlippinganImage" />
-      <config projectName="LeetCode" targetName="4Sum" />
-      <config projectName="LeetCode" targetName="LongestCommonPrefix" />
+      <config projectName="LeetCode" targetName="next-permutation" />
       <config projectName="LeetCode" targetName="FibonacciNumber" />
-      <config projectName="LeetCode" targetName="FindWordsThatCanBeFormedbyCharacters" />
+      <config projectName="LeetCode" targetName="SortArrayByParity_II" />
+      <config projectName="LeetCode" targetName="TwoSum" />
+      <config projectName="LeetCode" targetName="SearchInsertPosition" />
       <config projectName="LeetCode" targetName="MergeSortedArray" />
-      <config projectName="LeetCode" targetName="MaximumSubarray" />
-      <config projectName="LeetCode" targetName="MedianofTwoSortedArrays" />
+      <config projectName="LeetCode" targetName="FindWordsThatCanBeFormedbyCharacters" />
+      <config projectName="LeetCode" targetName="RomantoInteger" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -41,13 +47,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba249532-1a68-40af-b4ec-570a90b9fbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/118.Pascal'sTriangle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/119.Pascal'sTriangleII.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/1295.FindNumberswithEvenNumberofDigits.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/39.combination-sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/40.combination-sum-ii.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/41.first-missing-positive.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/31.next-permutation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/31.next-permutation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/33.search-in-rotated-sorted-array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/33.search-in-rotated-sorted-array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/34.find-first-and-last-position-of-element-in-sorted-array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/34.find-first-and-last-position-of-element-in-sorted-array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/4.MedianofTwoSortedArrays.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Array/4.MedianofTwoSortedArrays.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Array/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -87,13 +96,16 @@
     <option name="defaultAccountId" value="eaca497c-9faf-489c-bdec-00a84b14f93b" />
   </component>
   <component name="ProjectId" id="1OjAHSbGa0RB9xwYZudmh5MtF5a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -104,7 +116,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,7 +124,7 @@
       <recent name="E:\CodeBook\LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.PascalsTriangle_II">
+  <component name="RunManager" selected="CMake Application.first-missing-positive">
     <configuration name="3Sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="3Sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="3Sum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -263,25 +275,61 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="combination-sum-ii" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="combination-sum-ii" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="combination-sum-ii">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="combination-sum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="combination-sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="combination-sum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="find-first-and-last-position-of-element-in-sorted-array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="find-first-and-last-position-of-element-in-sorted-array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="find-first-and-last-position-of-element-in-sorted-array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="first-missing-positive" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="first-missing-positive" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="first-missing-positive">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="next-permutation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="next-permutation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="next-permutation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search-in-rotated-sorted-array" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCode" TARGET_NAME="search-in-rotated-sorted-array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCode" RUN_TARGET_NAME="search-in-rotated-sorted-array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.3Sum" />
       <item itemvalue="CMake Application.3SumClosest" />
       <item itemvalue="CMake Application.4Sum" />
       <item itemvalue="CMake Application.ArrayPartition_I" />
+      <item itemvalue="CMake Application.combination-sum" />
+      <item itemvalue="CMake Application.combination-sum-ii" />
       <item itemvalue="CMake Application.ContainerWithMostWater" />
       <item itemvalue="CMake Application.FibonacciNumber" />
+      <item itemvalue="CMake Application.find-first-and-last-position-of-element-in-sorted-array" />
       <item itemvalue="CMake Application.FindNumberswithEvenNumberofDigits" />
       <item itemvalue="CMake Application.FindWordsThatCanBeFormedbyCharacters" />
+      <item itemvalue="CMake Application.first-missing-positive" />
       <item itemvalue="CMake Application.FlippinganImage" />
       <item itemvalue="CMake Application.HeightChecker" />
       <item itemvalue="CMake Application.MedianofTwoSortedArrays" />
       <item itemvalue="CMake Application.MergeSortedArray" />
+      <item itemvalue="CMake Application.next-permutation" />
       <item itemvalue="CMake Application.PascalsTriangle" />
       <item itemvalue="CMake Application.PascalsTriangle_II" />
       <item itemvalue="CMake Application.PlusOne" />
       <item itemvalue="CMake Application.RelativeSortArray" />
       <item itemvalue="CMake Application.RemoveDuplicatesfromSortedArray" />
       <item itemvalue="CMake Application.RemoveElement" />
+      <item itemvalue="CMake Application.search-in-rotated-sorted-array" />
       <item itemvalue="CMake Application.SearchInsertPosition" />
       <item itemvalue="CMake Application.SortArrayByParity" />
       <item itemvalue="CMake Application.SortArrayByParity_II" />
@@ -344,6 +392,11 @@
       <workItem from="1569547971216" duration="108000" />
       <workItem from="1578643189450" duration="9084000" />
       <workItem from="1581585341912" duration="80000" />
+      <workItem from="1581677401281" duration="1886000" />
+      <workItem from="1581857987585" duration="3141000" />
+      <workItem from="1582112476463" duration="4568000" />
+      <workItem from="1582182879377" duration="13903000" />
+      <workItem from="1582259882149" duration="6120000" />
     </task>
     <task id="LOCAL-00001" summary="LeetCode联系代码，language: C++">
       <created>1563332589932</created>
@@ -463,6 +516,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="LeetCode代码，language: C++" />
     <MESSAGE value="LeetCode联系代码，language: C++" />
     <MESSAGE value="添加子目录CMakeLists.txt文件，修改几个文件的文件名，对应LeetCode里题目顺序" />
@@ -479,50 +533,64 @@
     <option name="LAST_COMMIT_MESSAGE" value="array 19-9-20" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1581585572265">
+    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1582294822795">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581585572265" />
-    <state width="1493" height="369" key="GridCell.Tab.0.bottom" timestamp="1578668723967">
+    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582294822795" />
+    <state width="1493" height="395" key="GridCell.Tab.0.bottom" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582126625518" />
+    <state width="1493" height="395" key="GridCell.Tab.0.center" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582126625517" />
+    <state width="1493" height="395" key="GridCell.Tab.0.left" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582126625516" />
+    <state width="1493" height="395" key="GridCell.Tab.0.right" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582126625517" />
+    <state width="1493" height="395" key="GridCell.Tab.1.bottom" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582126625518" />
+    <state width="1493" height="395" key="GridCell.Tab.1.center" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582126625518" />
+    <state width="1493" height="395" key="GridCell.Tab.1.left" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582126625518" />
+    <state width="1493" height="395" key="GridCell.Tab.1.right" timestamp="1582279892887">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="395" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582279892887" />
+    <state width="1493" height="369" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582126625518" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1581677466578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="369" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
-    <state width="1493" height="369" key="GridCell.Tab.0.center" timestamp="1578668723967">
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581677466578" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582120888352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="369" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
-    <state width="1493" height="369" key="GridCell.Tab.0.left" timestamp="1578668723967">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1582120888352" />
+    <state x="2369" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1582259885010">
+      <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="369" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
-    <state width="1493" height="369" key="GridCell.Tab.0.right" timestamp="1578668723967">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="369" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
-    <state width="1493" height="369" key="GridCell.Tab.1.bottom" timestamp="1578668723968">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="369" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578668723968" />
-    <state width="1493" height="369" key="GridCell.Tab.1.center" timestamp="1578668723967">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="369" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
-    <state width="1493" height="369" key="GridCell.Tab.1.left" timestamp="1578668723967">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="369" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578668723967" />
-    <state width="1493" height="369" key="GridCell.Tab.1.right" timestamp="1578668723968">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="369" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578668723968" />
-    <state x="270" y="55" key="SettingsEditor" timestamp="1581585424523">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581585424523" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581585390460">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581585390460" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1582182882643" />
+    <state x="2369" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1582259885010" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582112479199" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,12 +710,27 @@
           <line>18</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/33.search-in-rotated-sorted-array.cpp</url>
+          <line>86</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/39.combination-sum.cpp</url>
+          <line>126</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/40.combination-sum-ii.cpp</url>
+          <line>150</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Array/41.first-missing-positive.cpp</url>
+          <line>58</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="ans" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

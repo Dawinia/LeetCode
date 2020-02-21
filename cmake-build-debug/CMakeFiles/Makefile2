@@ -78,6 +78,7 @@ preinstall: DynamicProgramming/preinstall
 # Recursive "all" directory target.
 Array/all: Array/CMakeFiles/3SumClosest.dir/all
 Array/all: Array/CMakeFiles/TwoSum.dir/all
+Array/all: Array/CMakeFiles/combination-sum-ii.dir/all
 Array/all: Array/CMakeFiles/RemoveElement.dir/all
 Array/all: Array/CMakeFiles/MedianofTwoSortedArrays.dir/all
 Array/all: Array/CMakeFiles/4Sum.dir/all
@@ -95,16 +96,22 @@ Array/all: Array/CMakeFiles/SortArrayByParity_II.dir/all
 Array/all: Array/CMakeFiles/FibonacciNumber.dir/all
 Array/all: Array/CMakeFiles/MergeSortedArray.dir/all
 Array/all: Array/CMakeFiles/SearchInsertPosition.dir/all
+Array/all: Array/CMakeFiles/combination-sum.dir/all
 Array/all: Array/CMakeFiles/RelativeSortArray.dir/all
+Array/all: Array/CMakeFiles/search-in-rotated-sorted-array.dir/all
 Array/all: Array/CMakeFiles/PlusOne.dir/all
 Array/all: Array/CMakeFiles/PascalsTriangle.dir/all
 Array/all: Array/CMakeFiles/PascalsTriangle_II.dir/all
+Array/all: Array/CMakeFiles/next-permutation.dir/all
+Array/all: Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/all
+Array/all: Array/CMakeFiles/first-missing-positive.dir/all
 
 .PHONY : Array/all
 
 # Recursive "clean" directory target.
 Array/clean: Array/CMakeFiles/3SumClosest.dir/clean
 Array/clean: Array/CMakeFiles/TwoSum.dir/clean
+Array/clean: Array/CMakeFiles/combination-sum-ii.dir/clean
 Array/clean: Array/CMakeFiles/RemoveElement.dir/clean
 Array/clean: Array/CMakeFiles/MedianofTwoSortedArrays.dir/clean
 Array/clean: Array/CMakeFiles/4Sum.dir/clean
@@ -122,10 +129,15 @@ Array/clean: Array/CMakeFiles/SortArrayByParity_II.dir/clean
 Array/clean: Array/CMakeFiles/FibonacciNumber.dir/clean
 Array/clean: Array/CMakeFiles/MergeSortedArray.dir/clean
 Array/clean: Array/CMakeFiles/SearchInsertPosition.dir/clean
+Array/clean: Array/CMakeFiles/combination-sum.dir/clean
 Array/clean: Array/CMakeFiles/RelativeSortArray.dir/clean
+Array/clean: Array/CMakeFiles/search-in-rotated-sorted-array.dir/clean
 Array/clean: Array/CMakeFiles/PlusOne.dir/clean
 Array/clean: Array/CMakeFiles/PascalsTriangle.dir/clean
 Array/clean: Array/CMakeFiles/PascalsTriangle_II.dir/clean
+Array/clean: Array/CMakeFiles/next-permutation.dir/clean
+Array/clean: Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/clean
+Array/clean: Array/CMakeFiles/first-missing-positive.dir/clean
 
 .PHONY : Array/clean
 
@@ -187,6 +199,33 @@ TwoSum: Array/CMakeFiles/TwoSum.dir/rule
 Array/CMakeFiles/TwoSum.dir/clean:
 	$(MAKE) -f Array\CMakeFiles\TwoSum.dir\build.make Array/CMakeFiles/TwoSum.dir/clean
 .PHONY : Array/CMakeFiles/TwoSum.dir/clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/combination-sum-ii.dir
+
+# All Build rule for target.
+Array/CMakeFiles/combination-sum-ii.dir/all:
+	$(MAKE) -f Array\CMakeFiles\combination-sum-ii.dir\build.make Array/CMakeFiles/combination-sum-ii.dir/depend
+	$(MAKE) -f Array\CMakeFiles\combination-sum-ii.dir\build.make Array/CMakeFiles/combination-sum-ii.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target combination-sum-ii"
+.PHONY : Array/CMakeFiles/combination-sum-ii.dir/all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/combination-sum-ii.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/combination-sum-ii.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/combination-sum-ii.dir/rule
+
+# Convenience name for target.
+combination-sum-ii: Array/CMakeFiles/combination-sum-ii.dir/rule
+
+.PHONY : combination-sum-ii
+
+# clean rule for target.
+Array/CMakeFiles/combination-sum-ii.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\combination-sum-ii.dir\build.make Array/CMakeFiles/combination-sum-ii.dir/clean
+.PHONY : Array/CMakeFiles/combination-sum-ii.dir/clean
 
 #=============================================================================
 # Target rules for target Array/CMakeFiles/RemoveElement.dir
@@ -648,6 +687,33 @@ Array/CMakeFiles/SearchInsertPosition.dir/clean:
 .PHONY : Array/CMakeFiles/SearchInsertPosition.dir/clean
 
 #=============================================================================
+# Target rules for target Array/CMakeFiles/combination-sum.dir
+
+# All Build rule for target.
+Array/CMakeFiles/combination-sum.dir/all:
+	$(MAKE) -f Array\CMakeFiles\combination-sum.dir\build.make Array/CMakeFiles/combination-sum.dir/depend
+	$(MAKE) -f Array\CMakeFiles\combination-sum.dir\build.make Array/CMakeFiles/combination-sum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target combination-sum"
+.PHONY : Array/CMakeFiles/combination-sum.dir/all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/combination-sum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/combination-sum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/combination-sum.dir/rule
+
+# Convenience name for target.
+combination-sum: Array/CMakeFiles/combination-sum.dir/rule
+
+.PHONY : combination-sum
+
+# clean rule for target.
+Array/CMakeFiles/combination-sum.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\combination-sum.dir\build.make Array/CMakeFiles/combination-sum.dir/clean
+.PHONY : Array/CMakeFiles/combination-sum.dir/clean
+
+#=============================================================================
 # Target rules for target Array/CMakeFiles/RelativeSortArray.dir
 
 # All Build rule for target.
@@ -673,6 +739,33 @@ RelativeSortArray: Array/CMakeFiles/RelativeSortArray.dir/rule
 Array/CMakeFiles/RelativeSortArray.dir/clean:
 	$(MAKE) -f Array\CMakeFiles\RelativeSortArray.dir\build.make Array/CMakeFiles/RelativeSortArray.dir/clean
 .PHONY : Array/CMakeFiles/RelativeSortArray.dir/clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/search-in-rotated-sorted-array.dir
+
+# All Build rule for target.
+Array/CMakeFiles/search-in-rotated-sorted-array.dir/all:
+	$(MAKE) -f Array\CMakeFiles\search-in-rotated-sorted-array.dir\build.make Array/CMakeFiles/search-in-rotated-sorted-array.dir/depend
+	$(MAKE) -f Array\CMakeFiles\search-in-rotated-sorted-array.dir\build.make Array/CMakeFiles/search-in-rotated-sorted-array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target search-in-rotated-sorted-array"
+.PHONY : Array/CMakeFiles/search-in-rotated-sorted-array.dir/all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/search-in-rotated-sorted-array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/search-in-rotated-sorted-array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/search-in-rotated-sorted-array.dir/rule
+
+# Convenience name for target.
+search-in-rotated-sorted-array: Array/CMakeFiles/search-in-rotated-sorted-array.dir/rule
+
+.PHONY : search-in-rotated-sorted-array
+
+# clean rule for target.
+Array/CMakeFiles/search-in-rotated-sorted-array.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\search-in-rotated-sorted-array.dir\build.make Array/CMakeFiles/search-in-rotated-sorted-array.dir/clean
+.PHONY : Array/CMakeFiles/search-in-rotated-sorted-array.dir/clean
 
 #=============================================================================
 # Target rules for target Array/CMakeFiles/PlusOne.dir
@@ -754,6 +847,87 @@ PascalsTriangle_II: Array/CMakeFiles/PascalsTriangle_II.dir/rule
 Array/CMakeFiles/PascalsTriangle_II.dir/clean:
 	$(MAKE) -f Array\CMakeFiles\PascalsTriangle_II.dir\build.make Array/CMakeFiles/PascalsTriangle_II.dir/clean
 .PHONY : Array/CMakeFiles/PascalsTriangle_II.dir/clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/next-permutation.dir
+
+# All Build rule for target.
+Array/CMakeFiles/next-permutation.dir/all:
+	$(MAKE) -f Array\CMakeFiles\next-permutation.dir\build.make Array/CMakeFiles/next-permutation.dir/depend
+	$(MAKE) -f Array\CMakeFiles\next-permutation.dir\build.make Array/CMakeFiles/next-permutation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target next-permutation"
+.PHONY : Array/CMakeFiles/next-permutation.dir/all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/next-permutation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/next-permutation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/next-permutation.dir/rule
+
+# Convenience name for target.
+next-permutation: Array/CMakeFiles/next-permutation.dir/rule
+
+.PHONY : next-permutation
+
+# clean rule for target.
+Array/CMakeFiles/next-permutation.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\next-permutation.dir\build.make Array/CMakeFiles/next-permutation.dir/clean
+.PHONY : Array/CMakeFiles/next-permutation.dir/clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir
+
+# All Build rule for target.
+Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/all:
+	$(MAKE) -f Array\CMakeFiles\find-first-and-last-position-of-element-in-sorted-array.dir\build.make Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/depend
+	$(MAKE) -f Array\CMakeFiles\find-first-and-last-position-of-element-in-sorted-array.dir\build.make Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target find-first-and-last-position-of-element-in-sorted-array"
+.PHONY : Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/rule
+
+# Convenience name for target.
+find-first-and-last-position-of-element-in-sorted-array: Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/rule
+
+.PHONY : find-first-and-last-position-of-element-in-sorted-array
+
+# clean rule for target.
+Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\find-first-and-last-position-of-element-in-sorted-array.dir\build.make Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/clean
+.PHONY : Array/CMakeFiles/find-first-and-last-position-of-element-in-sorted-array.dir/clean
+
+#=============================================================================
+# Target rules for target Array/CMakeFiles/first-missing-positive.dir
+
+# All Build rule for target.
+Array/CMakeFiles/first-missing-positive.dir/all:
+	$(MAKE) -f Array\CMakeFiles\first-missing-positive.dir\build.make Array/CMakeFiles/first-missing-positive.dir/depend
+	$(MAKE) -f Array\CMakeFiles\first-missing-positive.dir\build.make Array/CMakeFiles/first-missing-positive.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target first-missing-positive"
+.PHONY : Array/CMakeFiles/first-missing-positive.dir/all
+
+# Build rule for subdir invocation for target.
+Array/CMakeFiles/first-missing-positive.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Array/CMakeFiles/first-missing-positive.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\CodeBook\LeetCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Array/CMakeFiles/first-missing-positive.dir/rule
+
+# Convenience name for target.
+first-missing-positive: Array/CMakeFiles/first-missing-positive.dir/rule
+
+.PHONY : first-missing-positive
+
+# clean rule for target.
+Array/CMakeFiles/first-missing-positive.dir/clean:
+	$(MAKE) -f Array\CMakeFiles\first-missing-positive.dir\build.make Array/CMakeFiles/first-missing-positive.dir/clean
+.PHONY : Array/CMakeFiles/first-missing-positive.dir/clean
 
 #=============================================================================
 # Directory level rules for directory String

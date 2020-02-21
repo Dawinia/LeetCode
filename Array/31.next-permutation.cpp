@@ -15,7 +15,7 @@ using namespace std;
 // @lc code=start
 class Solution
 {
-public:
+  public:
     void nextPermutation(vector<int> &nums)
     {
         int size = nums.size() - 1, i = -1, j = 0;
@@ -42,3 +42,4 @@ public:
     }
 };
 // @lc code=end
+
