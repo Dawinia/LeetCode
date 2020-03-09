@@ -32,3 +32,8 @@ add_executable(find-first-and-last-position-of-element-in-sorted-array 34.find-f
 add_executable(combination-sum 39.combination-sum.cpp)
 add_executable(combination-sum-ii 40.combination-sum-ii.cpp)
 add_executable(first-missing-positive 41.first-missing-positive.cpp)
+add_executable(trapping-rain-water 42.trapping-rain-water.cpp)
+add_executable(jump-game-ii 45.jump-game-ii.cpp)
+add_executable(rotate-image 48.rotate-image.cpp)
+add_executable(spiral-matrix 54.spiral-matrix.cpp)
+add_executable(merge-intervals 56.merge-intervals.cpp)

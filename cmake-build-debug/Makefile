@@ -38,10 +38,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = D:\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = D:\JetBrains\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E remove -f
+RM = D:\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\CodeBook\LeetCode\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	D:\JetBrains\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	D:\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	D:\JetBrains\apps\CLion\ch-0\193.5662.56\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\JetBrains\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -160,6 +160,19 @@ RemoveElement: cmake_check_build_system
 RemoveElement/fast:
 	$(MAKE) -f Array\CMakeFiles\RemoveElement.dir\build.make Array/CMakeFiles/RemoveElement.dir/build
 .PHONY : RemoveElement/fast
+
+#=============================================================================
+# Target rules for targets named jump-game-ii
+
+# Build rule for target.
+jump-game-ii: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 jump-game-ii
+.PHONY : jump-game-ii
+
+# fast build rule for target.
+jump-game-ii/fast:
+	$(MAKE) -f Array\CMakeFiles\jump-game-ii.dir\build.make Array/CMakeFiles/jump-game-ii.dir/build
+.PHONY : jump-game-ii/fast
 
 #=============================================================================
 # Target rules for targets named MedianofTwoSortedArrays
@@ -316,6 +329,19 @@ FindWordsThatCanBeFormedbyCharacters: cmake_check_build_system
 FindWordsThatCanBeFormedbyCharacters/fast:
 	$(MAKE) -f Array\CMakeFiles\FindWordsThatCanBeFormedbyCharacters.dir\build.make Array/CMakeFiles/FindWordsThatCanBeFormedbyCharacters.dir/build
 .PHONY : FindWordsThatCanBeFormedbyCharacters/fast
+
+#=============================================================================
+# Target rules for targets named trapping-rain-water
+
+# Build rule for target.
+trapping-rain-water: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 trapping-rain-water
+.PHONY : trapping-rain-water
+
+# fast build rule for target.
+trapping-rain-water/fast:
+	$(MAKE) -f Array\CMakeFiles\trapping-rain-water.dir\build.make Array/CMakeFiles/trapping-rain-water.dir/build
+.PHONY : trapping-rain-water/fast
 
 #=============================================================================
 # Target rules for targets named SortArrayByParity_II
@@ -487,6 +513,45 @@ first-missing-positive/fast:
 .PHONY : first-missing-positive/fast
 
 #=============================================================================
+# Target rules for targets named rotate-image
+
+# Build rule for target.
+rotate-image: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rotate-image
+.PHONY : rotate-image
+
+# fast build rule for target.
+rotate-image/fast:
+	$(MAKE) -f Array\CMakeFiles\rotate-image.dir\build.make Array/CMakeFiles/rotate-image.dir/build
+.PHONY : rotate-image/fast
+
+#=============================================================================
+# Target rules for targets named spiral-matrix
+
+# Build rule for target.
+spiral-matrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 spiral-matrix
+.PHONY : spiral-matrix
+
+# fast build rule for target.
+spiral-matrix/fast:
+	$(MAKE) -f Array\CMakeFiles\spiral-matrix.dir\build.make Array/CMakeFiles/spiral-matrix.dir/build
+.PHONY : spiral-matrix/fast
+
+#=============================================================================
+# Target rules for targets named merge-intervals
+
+# Build rule for target.
+merge-intervals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 merge-intervals
+.PHONY : merge-intervals
+
+# fast build rule for target.
+merge-intervals/fast:
+	$(MAKE) -f Array\CMakeFiles\merge-intervals.dir\build.make Array/CMakeFiles/merge-intervals.dir/build
+.PHONY : merge-intervals/fast
+
+#=============================================================================
 # Target rules for targets named RomantoInteger
 
 # Build rule for target.
@@ -577,6 +642,19 @@ BestTimetoBuyandSellStock/fast:
 	$(MAKE) -f DynamicProgramming\CMakeFiles\BestTimetoBuyandSellStock.dir\build.make DynamicProgramming/CMakeFiles/BestTimetoBuyandSellStock.dir/build
 .PHONY : BestTimetoBuyandSellStock/fast
 
+#=============================================================================
+# Target rules for targets named 57
+
+# Build rule for target.
+57: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 57
+.PHONY : 57
+
+# fast build rule for target.
+57/fast:
+	$(MAKE) -f interview\CMakeFiles\57.dir\build.make interview/CMakeFiles/57.dir/build
+.PHONY : 57/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -589,6 +667,7 @@ help:
 	@echo ... TwoSum
 	@echo ... combination-sum-ii
 	@echo ... RemoveElement
+	@echo ... jump-game-ii
 	@echo ... MedianofTwoSortedArrays
 	@echo ... 4Sum
 	@echo ... ContainerWithMostWater
@@ -601,6 +680,7 @@ help:
 	@echo ... ArrayPartition_I
 	@echo ... HeightChecker
 	@echo ... FindWordsThatCanBeFormedbyCharacters
+	@echo ... trapping-rain-water
 	@echo ... SortArrayByParity_II
 	@echo ... FibonacciNumber
 	@echo ... MergeSortedArray
@@ -614,6 +694,9 @@ help:
 	@echo ... next-permutation
 	@echo ... find-first-and-last-position-of-element-in-sorted-array
 	@echo ... first-missing-positive
+	@echo ... rotate-image
+	@echo ... spiral-matrix
+	@echo ... merge-intervals
 	@echo ... RomantoInteger
 	@echo ... LongestCommonPrefix
 	@echo ... ValidParentheses
@@ -621,6 +704,7 @@ help:
 	@echo ... MaximumSubarray
 	@echo ... ClimbingStairs
 	@echo ... BestTimetoBuyandSellStock
+	@echo ... 57
 .PHONY : help
 
 
