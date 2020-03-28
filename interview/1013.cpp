@@ -15,29 +15,29 @@ class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
         int sum = 0;
-        sum = accumulate(A.begin(), A.end(), 0);
+        for(auto i: A) {
+            sum += i;
+        }
         if(sum % 3 != 0)
             return false;
         int i = 0, gap = sum / 3, size = A.size(), s = 0, count = 0;
         while(i < size) {
-            s += A[i++];
-            if(count == 2) {
-                return accumulate(A.begin() + i, A.end(), 0) + s == gap;
-            }
             if(s == gap) {
                 ++count;
                 s = 0;
             }
+            s += A[i++];
         }
-        return count == 3;
+        return count == 2;
     }
 };
 
 int main()
 {
     Solution solution;
-    vector<int> a = {0,2,1,-6,6,-7,9,1,2,0,1};
+    vector<int> a = {12,-4,16,-5,9,-3,3,8,0};
     cout << solution.canThreePartsEqualSum(a) << endl;
     return 0;
+
 }
 
