@@ -1,0 +1,20 @@
+class Solution:
+    def findCircleNum(self, M: List[List[int]]) -> int:
+        if not M: return 0
+        
+        def dfs(x):
+            visit[x] = 1
+            for i in range(n):
+                if visit[i] != 1 and M[x][i] == 1:
+                    dfs(i)
+            
+        n, count = len(M), 0
+        visit = [0] * n
+        
+        for i in range(n):
+            if visit[i] != 1:
+                dfs(i)
+                count += 1
+        return count
+
+####################################
